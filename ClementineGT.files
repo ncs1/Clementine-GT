@@ -1,0 +1,3129 @@
+3rdparty/SPMediaKeyTap/CMakeLists.txt
+3rdparty/SPMediaKeyTap/LICENSE
+3rdparty/SPMediaKeyTap/README.md
+3rdparty/SPMediaKeyTap/SPInvocationGrabbing/NSObject+SPInvocationGrabbing.h
+3rdparty/SPMediaKeyTap/SPInvocationGrabbing/NSObject+SPInvocationGrabbing.m
+3rdparty/SPMediaKeyTap/SPInvocationGrabbing/gistfile3.m
+3rdparty/SPMediaKeyTap/SPInvocationGrabbing/gistfile4.m
+3rdparty/SPMediaKeyTap/SPInvocationGrabbing/main.m
+3rdparty/SPMediaKeyTap/SPMediaKeyTap.h
+3rdparty/SPMediaKeyTap/SPMediaKeyTap.m
+3rdparty/SPMediaKeyTap/SPMediaKeyTapDelegate.m
+3rdparty/gmock/CHANGES
+3rdparty/gmock/CONTRIBUTORS
+3rdparty/gmock/COPYING
+3rdparty/gmock/README
+3rdparty/gmock/gtest/CHANGES
+3rdparty/gmock/gtest/CONTRIBUTORS
+3rdparty/gmock/gtest/COPYING
+3rdparty/gmock/gtest/README
+3rdparty/gmock/gtest/codegear/gtest.cbproj
+3rdparty/gmock/gtest/codegear/gtest.groupproj
+3rdparty/gmock/gtest/codegear/gtest_all.cc
+3rdparty/gmock/gtest/codegear/gtest_link.cc
+3rdparty/gmock/gtest/codegear/gtest_main.cbproj
+3rdparty/gmock/gtest/codegear/gtest_unittest.cbproj
+3rdparty/gmock/gtest/include/gtest/gtest-death-test.h
+3rdparty/gmock/gtest/include/gtest/gtest-message.h
+3rdparty/gmock/gtest/include/gtest/gtest-param-test.h
+3rdparty/gmock/gtest/include/gtest/gtest-param-test.h.pump
+3rdparty/gmock/gtest/include/gtest/gtest-spi.h
+3rdparty/gmock/gtest/include/gtest/gtest-test-part.h
+3rdparty/gmock/gtest/include/gtest/gtest-typed-test.h
+3rdparty/gmock/gtest/include/gtest/gtest.h
+3rdparty/gmock/gtest/include/gtest/gtest_pred_impl.h
+3rdparty/gmock/gtest/include/gtest/gtest_prod.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-death-test-internal.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-filepath.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-internal.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-linked_ptr.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-param-util-generated.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-param-util-generated.h.pump
+3rdparty/gmock/gtest/include/gtest/internal/gtest-param-util.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-port.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-string.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-tuple.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-tuple.h.pump
+3rdparty/gmock/gtest/include/gtest/internal/gtest-type-util.h
+3rdparty/gmock/gtest/include/gtest/internal/gtest-type-util.h.pump
+3rdparty/gmock/gtest/src/gtest-all.cc
+3rdparty/gmock/gtest/src/gtest-death-test.cc
+3rdparty/gmock/gtest/src/gtest-filepath.cc
+3rdparty/gmock/gtest/src/gtest-internal-inl.h
+3rdparty/gmock/gtest/src/gtest-port.cc
+3rdparty/gmock/gtest/src/gtest-test-part.cc
+3rdparty/gmock/gtest/src/gtest-typed-test.cc
+3rdparty/gmock/gtest/src/gtest.cc
+3rdparty/gmock/gtest/src/gtest_main.cc
+3rdparty/gmock/include/gmock/gmock-actions.h
+3rdparty/gmock/include/gmock/gmock-cardinalities.h
+3rdparty/gmock/include/gmock/gmock-generated-actions.h
+3rdparty/gmock/include/gmock/gmock-generated-actions.h.pump
+3rdparty/gmock/include/gmock/gmock-generated-function-mockers.h
+3rdparty/gmock/include/gmock/gmock-generated-function-mockers.h.pump
+3rdparty/gmock/include/gmock/gmock-generated-matchers.h
+3rdparty/gmock/include/gmock/gmock-generated-matchers.h.pump
+3rdparty/gmock/include/gmock/gmock-generated-nice-strict.h
+3rdparty/gmock/include/gmock/gmock-generated-nice-strict.h.pump
+3rdparty/gmock/include/gmock/gmock-matchers.h
+3rdparty/gmock/include/gmock/gmock-more-actions.h
+3rdparty/gmock/include/gmock/gmock-printers.h
+3rdparty/gmock/include/gmock/gmock-spec-builders.h
+3rdparty/gmock/include/gmock/gmock.h
+3rdparty/gmock/include/gmock/internal/gmock-generated-internal-utils.h
+3rdparty/gmock/include/gmock/internal/gmock-generated-internal-utils.h.pump
+3rdparty/gmock/include/gmock/internal/gmock-internal-utils.h
+3rdparty/gmock/include/gmock/internal/gmock-port.h
+3rdparty/gmock/src/gmock-all.cc
+3rdparty/gmock/src/gmock-cardinalities.cc
+3rdparty/gmock/src/gmock-internal-utils.cc
+3rdparty/gmock/src/gmock-matchers.cc
+3rdparty/gmock/src/gmock-printers.cc
+3rdparty/gmock/src/gmock-spec-builders.cc
+3rdparty/gmock/src/gmock.cc
+3rdparty/gmock/src/gmock_main.cc
+3rdparty/google-breakpad/CMakeLists.txt
+3rdparty/google-breakpad/client/linux/android_link.h
+3rdparty/google-breakpad/client/linux/android_ucontext.h
+3rdparty/google-breakpad/client/linux/crash_generation/crash_generation_client.cc
+3rdparty/google-breakpad/client/linux/crash_generation/crash_generation_client.h
+3rdparty/google-breakpad/client/linux/handler/exception_handler.cc
+3rdparty/google-breakpad/client/linux/handler/exception_handler.h
+3rdparty/google-breakpad/client/linux/minidump_writer/directory_reader.h
+3rdparty/google-breakpad/client/linux/minidump_writer/line_reader.h
+3rdparty/google-breakpad/client/linux/minidump_writer/linux_dumper.cc
+3rdparty/google-breakpad/client/linux/minidump_writer/linux_dumper.h
+3rdparty/google-breakpad/client/linux/minidump_writer/minidump_extension_linux.h
+3rdparty/google-breakpad/client/linux/minidump_writer/minidump_writer.cc
+3rdparty/google-breakpad/client/linux/minidump_writer/minidump_writer.h
+3rdparty/google-breakpad/client/mac/Breakpad.xcodeproj/project.pbxproj
+3rdparty/google-breakpad/client/mac/Framework/Breakpad.h
+3rdparty/google-breakpad/client/mac/Framework/Breakpad.mm
+3rdparty/google-breakpad/client/mac/Framework/Breakpad_Prefix.pch
+3rdparty/google-breakpad/client/mac/Framework/Info.plist
+3rdparty/google-breakpad/client/mac/Framework/OnDemandServer.h
+3rdparty/google-breakpad/client/mac/Framework/OnDemandServer.mm
+3rdparty/google-breakpad/client/mac/UnitTests-Info.plist
+3rdparty/google-breakpad/client/mac/crash_generation/Inspector.h
+3rdparty/google-breakpad/client/mac/crash_generation/Inspector.mm
+3rdparty/google-breakpad/client/mac/crash_generation/InspectorMain.mm
+3rdparty/google-breakpad/client/mac/crash_generation/client_info.h
+3rdparty/google-breakpad/client/mac/crash_generation/crash_generation_client.cc
+3rdparty/google-breakpad/client/mac/crash_generation/crash_generation_client.h
+3rdparty/google-breakpad/client/mac/crash_generation/crash_generation_server.cc
+3rdparty/google-breakpad/client/mac/crash_generation/crash_generation_server.h
+3rdparty/google-breakpad/client/mac/handler/breakpad_exc_server.c
+3rdparty/google-breakpad/client/mac/handler/breakpad_exc_server.h
+3rdparty/google-breakpad/client/mac/handler/breakpad_nlist_64.cc
+3rdparty/google-breakpad/client/mac/handler/breakpad_nlist_64.h
+3rdparty/google-breakpad/client/mac/handler/dynamic_images.cc
+3rdparty/google-breakpad/client/mac/handler/dynamic_images.h
+3rdparty/google-breakpad/client/mac/handler/exception_handler.cc
+3rdparty/google-breakpad/client/mac/handler/exception_handler.h
+3rdparty/google-breakpad/client/mac/handler/minidump_generator.cc
+3rdparty/google-breakpad/client/mac/handler/minidump_generator.h
+3rdparty/google-breakpad/client/mac/handler/minidump_test.xcodeproj/project.pbxproj
+3rdparty/google-breakpad/client/mac/handler/minidump_tests32-Info.plist
+3rdparty/google-breakpad/client/mac/handler/minidump_tests64-Info.plist
+3rdparty/google-breakpad/client/mac/handler/obj-cTestCases-Info.plist
+3rdparty/google-breakpad/client/mac/handler/protected_memory_allocator.cc
+3rdparty/google-breakpad/client/mac/handler/protected_memory_allocator.h
+3rdparty/google-breakpad/client/mac/handler/testcases/DynamicImagesTests.cc
+3rdparty/google-breakpad/client/mac/handler/testcases/DynamicImagesTests.h
+3rdparty/google-breakpad/client/mac/handler/testcases/breakpad_nlist_test.cc
+3rdparty/google-breakpad/client/mac/handler/testcases/breakpad_nlist_test.h
+3rdparty/google-breakpad/client/mac/handler/testcases/dwarftests.h
+3rdparty/google-breakpad/client/mac/handler/testcases/dwarftests.mm
+3rdparty/google-breakpad/client/mac/handler/testcases/testdata/dump_syms_dwarf_data
+3rdparty/google-breakpad/client/mac/handler/testcases/testdata/dump_syms_i386_breakpad.sym
+3rdparty/google-breakpad/client/mac/sender/Breakpad.xib
+3rdparty/google-breakpad/client/mac/sender/English.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/English.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/ReporterIcon.graffle
+3rdparty/google-breakpad/client/mac/sender/crash_report_sender-Info.plist
+3rdparty/google-breakpad/client/mac/sender/crash_report_sender.h
+3rdparty/google-breakpad/client/mac/sender/crash_report_sender.icns
+3rdparty/google-breakpad/client/mac/sender/crash_report_sender.m
+3rdparty/google-breakpad/client/mac/sender/da.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/da.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/de.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/de.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/es.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/es.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/fr.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/fr.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/goArrow.png
+3rdparty/google-breakpad/client/mac/sender/it.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/it.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/ja.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/ja.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/nl.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/nl.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/no.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/no.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/sl.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/sl.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/sv.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/sv.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/sender/tr.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/sender/tr.lproj/Localizable.strings
+3rdparty/google-breakpad/client/mac/testapp/Controller.h
+3rdparty/google-breakpad/client/mac/testapp/Controller.m
+3rdparty/google-breakpad/client/mac/testapp/English.lproj/InfoPlist.strings
+3rdparty/google-breakpad/client/mac/testapp/English.lproj/MainMenu.xib
+3rdparty/google-breakpad/client/mac/testapp/Info.plist
+3rdparty/google-breakpad/client/mac/testapp/TestClass.h
+3rdparty/google-breakpad/client/mac/testapp/TestClass.mm
+3rdparty/google-breakpad/client/mac/testapp/bomb.icns
+3rdparty/google-breakpad/client/mac/testapp/crashInMain
+3rdparty/google-breakpad/client/mac/testapp/crashduringload
+3rdparty/google-breakpad/client/mac/testapp/main.m
+3rdparty/google-breakpad/client/mac/tests/BreakpadFramework_Test.mm
+3rdparty/google-breakpad/client/mac/tests/SimpleStringDictionaryTest.h
+3rdparty/google-breakpad/client/mac/tests/SimpleStringDictionaryTest.mm
+3rdparty/google-breakpad/client/mac/tests/auto_tempdir.h
+3rdparty/google-breakpad/client/mac/tests/crash_generation_server_test.cc
+3rdparty/google-breakpad/client/mac/tests/exception_handler_test.cc
+3rdparty/google-breakpad/client/mac/tests/minidump_generator_test.cc
+3rdparty/google-breakpad/client/mac/tests/minidump_generator_test_helper.cc
+3rdparty/google-breakpad/client/mac/tests/spawn_child_process.h
+3rdparty/google-breakpad/client/mac/tests/testlogging.h
+3rdparty/google-breakpad/client/minidump_file_writer-inl.h
+3rdparty/google-breakpad/client/minidump_file_writer.cc
+3rdparty/google-breakpad/client/minidump_file_writer.h
+3rdparty/google-breakpad/common/byte_cursor.h
+3rdparty/google-breakpad/common/convert_UTF.c
+3rdparty/google-breakpad/common/convert_UTF.h
+3rdparty/google-breakpad/common/dwarf/bytereader-inl.h
+3rdparty/google-breakpad/common/dwarf/bytereader.cc
+3rdparty/google-breakpad/common/dwarf/bytereader.h
+3rdparty/google-breakpad/common/dwarf/bytereader_unittest.cc
+3rdparty/google-breakpad/common/dwarf/cfi_assembler.cc
+3rdparty/google-breakpad/common/dwarf/cfi_assembler.h
+3rdparty/google-breakpad/common/dwarf/dwarf2diehandler.cc
+3rdparty/google-breakpad/common/dwarf/dwarf2diehandler.h
+3rdparty/google-breakpad/common/dwarf/dwarf2diehandler_unittest.cc
+3rdparty/google-breakpad/common/dwarf/dwarf2enums.h
+3rdparty/google-breakpad/common/dwarf/dwarf2reader.cc
+3rdparty/google-breakpad/common/dwarf/dwarf2reader.h
+3rdparty/google-breakpad/common/dwarf/dwarf2reader_cfi_unittest.cc
+3rdparty/google-breakpad/common/dwarf/functioninfo.cc
+3rdparty/google-breakpad/common/dwarf/functioninfo.h
+3rdparty/google-breakpad/common/dwarf/line_state_machine.h
+3rdparty/google-breakpad/common/dwarf/types.h
+3rdparty/google-breakpad/common/dwarf_cfi_to_module.cc
+3rdparty/google-breakpad/common/dwarf_cfi_to_module.h
+3rdparty/google-breakpad/common/dwarf_cu_to_module.cc
+3rdparty/google-breakpad/common/dwarf_cu_to_module.h
+3rdparty/google-breakpad/common/dwarf_line_to_module.cc
+3rdparty/google-breakpad/common/dwarf_line_to_module.h
+3rdparty/google-breakpad/common/language.cc
+3rdparty/google-breakpad/common/language.h
+3rdparty/google-breakpad/common/linux/eintr_wrapper.h
+3rdparty/google-breakpad/common/linux/file_id.cc
+3rdparty/google-breakpad/common/linux/file_id.h
+3rdparty/google-breakpad/common/linux/guid_creator.cc
+3rdparty/google-breakpad/common/linux/guid_creator.h
+3rdparty/google-breakpad/common/linux/linux_libc_support.h
+3rdparty/google-breakpad/common/mac/Breakpad.xcconfig
+3rdparty/google-breakpad/common/mac/BreakpadDebug.xcconfig
+3rdparty/google-breakpad/common/mac/BreakpadRelease.xcconfig
+3rdparty/google-breakpad/common/mac/GTMDefines.h
+3rdparty/google-breakpad/common/mac/GTMGarbageCollection.h
+3rdparty/google-breakpad/common/mac/GTMLogger.h
+3rdparty/google-breakpad/common/mac/GTMLogger.m
+3rdparty/google-breakpad/common/mac/HTTPMultipartUpload.h
+3rdparty/google-breakpad/common/mac/HTTPMultipartUpload.m
+3rdparty/google-breakpad/common/mac/MachIPC.h
+3rdparty/google-breakpad/common/mac/MachIPC.mm
+3rdparty/google-breakpad/common/mac/SimpleStringDictionary.h
+3rdparty/google-breakpad/common/mac/SimpleStringDictionary.mm
+3rdparty/google-breakpad/common/mac/byteswap.h
+3rdparty/google-breakpad/common/mac/dump_syms.h
+3rdparty/google-breakpad/common/mac/dump_syms.mm
+3rdparty/google-breakpad/common/mac/file_id.cc
+3rdparty/google-breakpad/common/mac/file_id.h
+3rdparty/google-breakpad/common/mac/macho_id.cc
+3rdparty/google-breakpad/common/mac/macho_id.h
+3rdparty/google-breakpad/common/mac/macho_reader.cc
+3rdparty/google-breakpad/common/mac/macho_reader.h
+3rdparty/google-breakpad/common/mac/macho_reader_unittest.cc
+3rdparty/google-breakpad/common/mac/macho_utilities.cc
+3rdparty/google-breakpad/common/mac/macho_utilities.h
+3rdparty/google-breakpad/common/mac/macho_walker.cc
+3rdparty/google-breakpad/common/mac/macho_walker.h
+3rdparty/google-breakpad/common/mac/scoped_task_suspend-inl.h
+3rdparty/google-breakpad/common/mac/string_utilities.cc
+3rdparty/google-breakpad/common/mac/string_utilities.h
+3rdparty/google-breakpad/common/mac/testing/GTMSenTestCase.h
+3rdparty/google-breakpad/common/mac/testing/GTMSenTestCase.m
+3rdparty/google-breakpad/common/md5.c
+3rdparty/google-breakpad/common/md5.h
+3rdparty/google-breakpad/common/memory.h
+3rdparty/google-breakpad/common/module.cc
+3rdparty/google-breakpad/common/module.h
+3rdparty/google-breakpad/common/stabs_reader.cc
+3rdparty/google-breakpad/common/stabs_reader.h
+3rdparty/google-breakpad/common/stabs_to_module.cc
+3rdparty/google-breakpad/common/stabs_to_module.h
+3rdparty/google-breakpad/common/string_conversion.cc
+3rdparty/google-breakpad/common/string_conversion.h
+3rdparty/google-breakpad/google_breakpad/common/breakpad_types.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_amd64.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_arm.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_ppc.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_ppc64.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_sparc.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_cpu_x86.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_exception_linux.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_exception_mac.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_exception_solaris.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_exception_win32.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_format.h
+3rdparty/google-breakpad/google_breakpad/common/minidump_size.h
+3rdparty/google-breakpad/processor/scoped_ptr.h
+3rdparty/google-breakpad/third_party/lss/linux_syscall_support.h
+3rdparty/google-breakpad/tools/mac/crash_report/crash_report.mm
+3rdparty/google-breakpad/tools/mac/crash_report/crash_report.xcodeproj/project.pbxproj
+3rdparty/google-breakpad/tools/mac/crash_report/on_demand_symbol_supplier.h
+3rdparty/google-breakpad/tools/mac/crash_report/on_demand_symbol_supplier.mm
+3rdparty/google-breakpad/tools/mac/dump_syms/dump_syms.xcodeproj/project.pbxproj
+3rdparty/google-breakpad/tools/mac/dump_syms/dump_syms_tool.mm
+3rdparty/google-breakpad/tools/mac/dump_syms/macho_dump.cc
+3rdparty/google-breakpad/tools/mac/symupload/minidump_upload.m
+3rdparty/google-breakpad/tools/mac/symupload/symupload.m
+3rdparty/google-breakpad/tools/mac/symupload/symupload.xcodeproj/project.pbxproj
+3rdparty/libmygpo-qt/qjsonwrapper/Json.cpp
+3rdparty/libmygpo-qt/qjsonwrapper/Json.h
+3rdparty/libmygpo-qt5/AUTHORS
+3rdparty/libmygpo-qt5/CMakeLists.txt
+3rdparty/libmygpo-qt5/LICENSE
+3rdparty/libmygpo-qt5/Mygpo-qtConfig.cmake.in
+3rdparty/libmygpo-qt5/Mygpo-qtConfigVersion.cmake.in
+3rdparty/libmygpo-qt5/README
+3rdparty/libmygpo-qt5/cmake/modules/FindQJSON.cmake
+3rdparty/libmygpo-qt5/src/AddRemoveResult.cpp
+3rdparty/libmygpo-qt5/src/AddRemoveResult.h
+3rdparty/libmygpo-qt5/src/AddRemoveResult_p.h
+3rdparty/libmygpo-qt5/src/ApiRequest.cpp
+3rdparty/libmygpo-qt5/src/ApiRequest.h
+3rdparty/libmygpo-qt5/src/ApiRequest_p.h
+3rdparty/libmygpo-qt5/src/CMakeLists.txt
+3rdparty/libmygpo-qt5/src/Config.cpp
+3rdparty/libmygpo-qt5/src/Config.h
+3rdparty/libmygpo-qt5/src/Config_p.h
+3rdparty/libmygpo-qt5/src/Device.cpp
+3rdparty/libmygpo-qt5/src/Device.h
+3rdparty/libmygpo-qt5/src/DeviceList.cpp
+3rdparty/libmygpo-qt5/src/DeviceList.h
+3rdparty/libmygpo-qt5/src/DeviceList_p.h
+3rdparty/libmygpo-qt5/src/DeviceSyncResult.cpp
+3rdparty/libmygpo-qt5/src/DeviceSyncResult.h
+3rdparty/libmygpo-qt5/src/DeviceSyncResult_p.h
+3rdparty/libmygpo-qt5/src/DeviceUpdates.cpp
+3rdparty/libmygpo-qt5/src/DeviceUpdates.h
+3rdparty/libmygpo-qt5/src/DeviceUpdates_p.h
+3rdparty/libmygpo-qt5/src/Device_p.h
+3rdparty/libmygpo-qt5/src/Episode.cpp
+3rdparty/libmygpo-qt5/src/Episode.h
+3rdparty/libmygpo-qt5/src/EpisodeAction.cpp
+3rdparty/libmygpo-qt5/src/EpisodeAction.h
+3rdparty/libmygpo-qt5/src/EpisodeActionList.cpp
+3rdparty/libmygpo-qt5/src/EpisodeActionList.h
+3rdparty/libmygpo-qt5/src/EpisodeActionList_p.h
+3rdparty/libmygpo-qt5/src/EpisodeAction_p.h
+3rdparty/libmygpo-qt5/src/EpisodeList.cpp
+3rdparty/libmygpo-qt5/src/EpisodeList.h
+3rdparty/libmygpo-qt5/src/EpisodeList_p.h
+3rdparty/libmygpo-qt5/src/Episode_p.h
+3rdparty/libmygpo-qt5/src/JsonCreator.cpp
+3rdparty/libmygpo-qt5/src/JsonCreator.h
+3rdparty/libmygpo-qt5/src/Podcast.cpp
+3rdparty/libmygpo-qt5/src/Podcast.h
+3rdparty/libmygpo-qt5/src/PodcastList.cpp
+3rdparty/libmygpo-qt5/src/PodcastList.h
+3rdparty/libmygpo-qt5/src/PodcastList_p.h
+3rdparty/libmygpo-qt5/src/Podcast_p.h
+3rdparty/libmygpo-qt5/src/RequestHandler.cpp
+3rdparty/libmygpo-qt5/src/RequestHandler.h
+3rdparty/libmygpo-qt5/src/Settings.cpp
+3rdparty/libmygpo-qt5/src/Settings.h
+3rdparty/libmygpo-qt5/src/Settings_p.h
+3rdparty/libmygpo-qt5/src/Tag.cpp
+3rdparty/libmygpo-qt5/src/Tag.h
+3rdparty/libmygpo-qt5/src/TagList.cpp
+3rdparty/libmygpo-qt5/src/TagList.h
+3rdparty/libmygpo-qt5/src/TagList_p.h
+3rdparty/libmygpo-qt5/src/Tag_p.h
+3rdparty/libmygpo-qt5/src/UrlBuilder.cpp
+3rdparty/libmygpo-qt5/src/UrlBuilder.h
+3rdparty/libmygpo-qt5/src/Version.h.in
+3rdparty/libmygpo-qt5/src/mygpo_export.h
+3rdparty/libmygpo-qt5/src/qjsonwrapper/Json.cpp
+3rdparty/libmygpo-qt5/src/qjsonwrapper/Json.h
+3rdparty/libprojectm/CMakeLists.txt
+3rdparty/libprojectm/COPYING
+3rdparty/libprojectm/ChangeLog
+3rdparty/libprojectm/Common.hpp
+3rdparty/libprojectm/ConfigFile.cpp
+3rdparty/libprojectm/ConfigFile.h
+3rdparty/libprojectm/FindPkgConfig.cmake
+3rdparty/libprojectm/HungarianMethod.hpp
+3rdparty/libprojectm/IdleTextures.hpp
+3rdparty/libprojectm/KeyHandler.cpp
+3rdparty/libprojectm/KeyHandler.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/BuiltinFuncs.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/BuiltinFuncs.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/BuiltinParams.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/BuiltinParams.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/CMakeLists.txt
+3rdparty/libprojectm/MilkdropPresetFactory/CValue.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/CustomShape.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/CustomShape.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/CustomWave.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/CustomWave.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/Eval.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/Eval.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/Expr.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/Expr.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/Func.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/Func.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/IdlePreset.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/IdlePreset.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/InitCond.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/InitCond.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/InitCondUtils.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/MilkdropPreset.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/MilkdropPreset.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/MilkdropPresetFactory.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/MilkdropPresetFactory.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/Param.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/Param.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/ParamUtils.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/Parser.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/Parser.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerFrameEqn.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerFrameEqn.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerPixelEqn.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerPixelEqn.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerPointEqn.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/PerPointEqn.hpp
+3rdparty/libprojectm/MilkdropPresetFactory/PresetFrameIO.cpp
+3rdparty/libprojectm/MilkdropPresetFactory/PresetFrameIO.hpp
+3rdparty/libprojectm/PCM.cpp
+3rdparty/libprojectm/PCM.hpp
+3rdparty/libprojectm/PipelineMerger.cpp
+3rdparty/libprojectm/PipelineMerger.hpp
+3rdparty/libprojectm/Preset.cpp
+3rdparty/libprojectm/Preset.hpp
+3rdparty/libprojectm/PresetChooser.cpp
+3rdparty/libprojectm/PresetChooser.hpp
+3rdparty/libprojectm/PresetFactory.cpp
+3rdparty/libprojectm/PresetFactory.hpp
+3rdparty/libprojectm/PresetFactoryManager.cpp
+3rdparty/libprojectm/PresetFactoryManager.hpp
+3rdparty/libprojectm/PresetLoader.cpp
+3rdparty/libprojectm/PresetLoader.hpp
+3rdparty/libprojectm/RandomNumberGenerators.hpp
+3rdparty/libprojectm/Renderer/BeatDetect.cpp
+3rdparty/libprojectm/Renderer/BeatDetect.hpp
+3rdparty/libprojectm/Renderer/CMakeLists.txt
+3rdparty/libprojectm/Renderer/FBO.cpp
+3rdparty/libprojectm/Renderer/FBO.hpp
+3rdparty/libprojectm/Renderer/Filters.cpp
+3rdparty/libprojectm/Renderer/Filters.hpp
+3rdparty/libprojectm/Renderer/MilkdropWaveform.cpp
+3rdparty/libprojectm/Renderer/MilkdropWaveform.hpp
+3rdparty/libprojectm/Renderer/PerPixelMesh.cpp
+3rdparty/libprojectm/Renderer/PerPixelMesh.hpp
+3rdparty/libprojectm/Renderer/PerlinNoise.cpp
+3rdparty/libprojectm/Renderer/PerlinNoise.hpp
+3rdparty/libprojectm/Renderer/Pipeline.cpp
+3rdparty/libprojectm/Renderer/Pipeline.hpp
+3rdparty/libprojectm/Renderer/PipelineContext.cpp
+3rdparty/libprojectm/Renderer/PipelineContext.hpp
+3rdparty/libprojectm/Renderer/RenderItemDistanceMetric.cpp
+3rdparty/libprojectm/Renderer/RenderItemDistanceMetric.hpp
+3rdparty/libprojectm/Renderer/RenderItemMatcher.cpp
+3rdparty/libprojectm/Renderer/RenderItemMatcher.hpp
+3rdparty/libprojectm/Renderer/RenderItemMergeFunction.hpp
+3rdparty/libprojectm/Renderer/Renderable.cpp
+3rdparty/libprojectm/Renderer/Renderable.hpp
+3rdparty/libprojectm/Renderer/Renderer.cpp
+3rdparty/libprojectm/Renderer/Renderer.hpp
+3rdparty/libprojectm/Renderer/SOIL/SOIL.c
+3rdparty/libprojectm/Renderer/SOIL/SOIL.h
+3rdparty/libprojectm/Renderer/SOIL/image_DXT.c
+3rdparty/libprojectm/Renderer/SOIL/image_DXT.h
+3rdparty/libprojectm/Renderer/SOIL/image_helper.c
+3rdparty/libprojectm/Renderer/SOIL/image_helper.h
+3rdparty/libprojectm/Renderer/SOIL/stb_image_aug.c
+3rdparty/libprojectm/Renderer/SOIL/stb_image_aug.h
+3rdparty/libprojectm/Renderer/SOIL/stbi_DDS_aug.h
+3rdparty/libprojectm/Renderer/SOIL/stbi_DDS_aug_c.h
+3rdparty/libprojectm/Renderer/Shader.cpp
+3rdparty/libprojectm/Renderer/Shader.hpp
+3rdparty/libprojectm/Renderer/ShaderEngine.cpp
+3rdparty/libprojectm/Renderer/ShaderEngine.hpp
+3rdparty/libprojectm/Renderer/TextureManager.cpp
+3rdparty/libprojectm/Renderer/TextureManager.hpp
+3rdparty/libprojectm/Renderer/Transformation.hpp
+3rdparty/libprojectm/Renderer/UserTexture.cpp
+3rdparty/libprojectm/Renderer/UserTexture.hpp
+3rdparty/libprojectm/Renderer/VideoEcho.cpp
+3rdparty/libprojectm/Renderer/VideoEcho.hpp
+3rdparty/libprojectm/Renderer/Waveform.cpp
+3rdparty/libprojectm/Renderer/Waveform.hpp
+3rdparty/libprojectm/Renderer/blur.cg
+3rdparty/libprojectm/Renderer/projectM.cg
+3rdparty/libprojectm/TimeKeeper.cpp
+3rdparty/libprojectm/TimeKeeper.hpp
+3rdparty/libprojectm/carbontoprojectM.h
+3rdparty/libprojectm/config.inp.in
+3rdparty/libprojectm/dlldefs.h
+3rdparty/libprojectm/event.h
+3rdparty/libprojectm/fatal.h
+3rdparty/libprojectm/fftsg.cpp
+3rdparty/libprojectm/fftsg.h
+3rdparty/libprojectm/glError.h
+3rdparty/libprojectm/glew.c
+3rdparty/libprojectm/glew.h
+3rdparty/libprojectm/glxew.h
+3rdparty/libprojectm/libprojectM.pc.in
+3rdparty/libprojectm/libprojectM.rc
+3rdparty/libprojectm/lvtoprojectM.h
+3rdparty/libprojectm/omptl/Example.cpp
+3rdparty/libprojectm/omptl/License.txt
+3rdparty/libprojectm/omptl/omptl
+3rdparty/libprojectm/omptl/omptl_algorithm
+3rdparty/libprojectm/omptl/omptl_algorithm_par.h
+3rdparty/libprojectm/omptl/omptl_algorithm_ser.h
+3rdparty/libprojectm/omptl/omptl_numeric
+3rdparty/libprojectm/omptl/omptl_numeric_extentions.h
+3rdparty/libprojectm/omptl/omptl_numeric_extentions_par.h
+3rdparty/libprojectm/omptl/omptl_numeric_extentions_ser.h
+3rdparty/libprojectm/omptl/omptl_numeric_par.h
+3rdparty/libprojectm/omptl/omptl_numeric_ser.h
+3rdparty/libprojectm/omptl/omptl_tools.h
+3rdparty/libprojectm/patches/01-change-texture-size.patch
+3rdparty/libprojectm/patches/02-fix-win-compilation.patch
+3rdparty/libprojectm/patches/03-fix-mac-compilation.patch
+3rdparty/libprojectm/patches/04-change-preset-duration.patch
+3rdparty/libprojectm/patches/05-fix-windows-crashes.patch
+3rdparty/libprojectm/patches/06-fix-numeric-locale.patch
+3rdparty/libprojectm/patches/07-fix-fbo-fallback-memory-leak.patch
+3rdparty/libprojectm/patches/08-stdlib.h-for-rand.patch
+3rdparty/libprojectm/presets/Aderrasi - Agitator.milk
+3rdparty/libprojectm/presets/Aderrasi - Aimless (Gravity Directive Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Aimless (Spirogravity Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Airhandler (Menagerie Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Airs (Windy Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Anchorpulse (Pulse Of A Ghast II Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Anchorpulse (Verified Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Anomalous Material Science (Pure Splinter Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Antidote (Aqualung Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Antidote (Side Effects Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Antidote.milk
+3rdparty/libprojectm/presets/Aderrasi - Antique Abyss.milk
+3rdparty/libprojectm/presets/Aderrasi - Arise! (Padded Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Ashes Of Air (Remix).milk
+3rdparty/libprojectm/presets/Aderrasi - Bitterfeld (Crystal Border Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Blender.milk
+3rdparty/libprojectm/presets/Aderrasi - Bow To Gravity.milk
+3rdparty/libprojectm/presets/Aderrasi - Brakefreak.milk
+3rdparty/libprojectm/presets/Aderrasi - Candy Avian.milk
+3rdparty/libprojectm/presets/Aderrasi - Causeway Of Dreams (Nightmare Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Causeway Of Dreams (REMix).milk
+3rdparty/libprojectm/presets/Aderrasi - Causeway Of Dreams.milk
+3rdparty/libprojectm/presets/Aderrasi - Chromatic Abyss (The Other Side).milk
+3rdparty/libprojectm/presets/Aderrasi - Circlefacade.milk
+3rdparty/libprojectm/presets/Aderrasi - Contortion (Xenomorph Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Contortion.milk
+3rdparty/libprojectm/presets/Aderrasi - Crystal Storm.milk
+3rdparty/libprojectm/presets/Aderrasi - Dark Matter (Converse Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Elastoid.milk
+3rdparty/libprojectm/presets/Aderrasi - Floater Society.milk
+3rdparty/libprojectm/presets/Aderrasi - Flowing Form.milk
+3rdparty/libprojectm/presets/Aderrasi - Making Time (Swamp Mix).milk
+3rdparty/libprojectm/presets/Aderrasi - Potion of Spirits.milk
+3rdparty/libprojectm/presets/Aderrasi - Songflower (Moss Posy).milk
+3rdparty/libprojectm/presets/Aderrasi - Spillswirl.milk
+3rdparty/libprojectm/presets/Aderrasi - What Cannot Be Undone.milk
+3rdparty/libprojectm/presets/Aderrasi - What cannot be.milk
+3rdparty/libprojectm/presets/Bmelgren & Krash - Rainbow Orb Peacock (Centred Journey Mix.milk
+3rdparty/libprojectm/presets/Bmelgren & Krash - Rainbow Orb Peacock (Lonely Signal Gone .milk
+3rdparty/libprojectm/presets/Bmelgren - Godhead.milk
+3rdparty/libprojectm/presets/Bmelgren - Pentultimate Nerual Slipstream (Tweak 2).milk
+3rdparty/libprojectm/presets/Bmelgren - Take This Highway.milk
+3rdparty/libprojectm/presets/Che - Burning Hus.milk
+3rdparty/libprojectm/presets/Che - Escape.milk
+3rdparty/libprojectm/presets/Che - Watch & Fly.milk
+3rdparty/libprojectm/presets/CrystalHigh - mad ravetriping.milk
+3rdparty/libprojectm/presets/DaNOnE - Highway to Heaven (rotating).milk
+3rdparty/libprojectm/presets/EMPR - Random - Changing Polyevolution.milk
+3rdparty/libprojectm/presets/EMPR - Random - Look mama I'm on TV! 2.milk
+3rdparty/libprojectm/presets/EMPR - Random - They're so cute Dad can I keep one!.milk
+3rdparty/libprojectm/presets/EMPR - Random - Turbulence Sandwich.milk
+3rdparty/libprojectm/presets/Eo.S. + Phat - chasers 18 hallway.milk
+3rdparty/libprojectm/presets/Eo.S. - glowsticks v2 03 music.milk
+3rdparty/libprojectm/presets/Eo.S. - glowsticks v2 04 music minimal.milk
+3rdparty/libprojectm/presets/Eo.S. - glowsticks v2 05 and proton lights (+Krash's beat code) _Phat_remix02b.milk
+3rdparty/libprojectm/presets/Eo.S. - glowsticks v2 05 and proton lights (+Krash's beat code) _Phat_remix07 recursive demons.milk
+3rdparty/libprojectm/presets/Eo.S. - heater core C_Phat's_class + sparks_mix.milk
+3rdparty/libprojectm/presets/Eo.S. - heater core C_Phat's_on route_mix+beam.milk
+3rdparty/libprojectm/presets/Eo.S. - repeater 05 - rave on acid.milk
+3rdparty/libprojectm/presets/Eo.S. - repeater 15 - kaleidoscope b.milk
+3rdparty/libprojectm/presets/Eo.S.+Phat - Arm_upgrades - transformer.milk
+3rdparty/libprojectm/presets/Eo.S.+Phat Cool Bug v2 + (Krash's beat detection).milk
+3rdparty/libprojectm/presets/EvilJim - Follow the ball.milk
+3rdparty/libprojectm/presets/EvilJim - Ice Drops.milk
+3rdparty/libprojectm/presets/Fvese & Idiot24-7 - Rearview Mirror.milk
+3rdparty/libprojectm/presets/Fvese - 0 To 60.milk
+3rdparty/libprojectm/presets/Fvese - A Blur.milk
+3rdparty/libprojectm/presets/Fvese - Lifesavor Anyone.milk
+3rdparty/libprojectm/presets/Fvese - New meetings.milk
+3rdparty/libprojectm/presets/Fvese - Quicksand.milk
+3rdparty/libprojectm/presets/Fvese - Round and Round (geiss gamma mix).milk
+3rdparty/libprojectm/presets/Fvese - Stand Still!.milk
+3rdparty/libprojectm/presets/Fvese - The Tunnel (Final Stage Mix).milk
+3rdparty/libprojectm/presets/Fvese - Window Reflection 6.milk
+3rdparty/libprojectm/presets/Fvese - Zoom Effects (Remix 2).milk
+3rdparty/libprojectm/presets/Fvese - simple.milk
+3rdparty/libprojectm/presets/Geiss & Rovastar - Julia Fractal (Vectrip Mix).milk
+3rdparty/libprojectm/presets/Geiss & Rovastar - Notions Of Tonality 2.milk
+3rdparty/libprojectm/presets/Geiss & Rovastar - The Chaos Of Colours (sprouting dimentia mix).milk
+3rdparty/libprojectm/presets/Geiss & Rovastar - Tokamak (Naked Intrusion Mix).milk
+3rdparty/libprojectm/presets/Geiss & Sperl - Feedback (projectM idle HDR mix).prjm
+3rdparty/libprojectm/presets/Geiss - Aieeeeee!!!.milk
+3rdparty/libprojectm/presets/Geiss - Anomaly 1.milk
+3rdparty/libprojectm/presets/Geiss - Anomaly 2.milk
+3rdparty/libprojectm/presets/Geiss - Approach.milk
+3rdparty/libprojectm/presets/Geiss - Asymptote.milk
+3rdparty/libprojectm/presets/Geiss - Bass Kaleidosphere.milk
+3rdparty/libprojectm/presets/Geiss - Bass Zoom.milk
+3rdparty/libprojectm/presets/Geiss - Bipolar 1.milk
+3rdparty/libprojectm/presets/Geiss - Bipolar 2.milk
+3rdparty/libprojectm/presets/Geiss - Bipolar 3.milk
+3rdparty/libprojectm/presets/Geiss - Bipolar 4.milk
+3rdparty/libprojectm/presets/Geiss - Bipolar 5.milk
+3rdparty/libprojectm/presets/Geiss - Blasto.milk
+3rdparty/libprojectm/presets/Geiss - Bonfire.milk
+3rdparty/libprojectm/presets/Geiss - Bright Fiber Matrix 1.milk
+3rdparty/libprojectm/presets/Geiss - Bright Fiber Matrix 2.milk
+3rdparty/libprojectm/presets/Geiss - Calligraphy.milk
+3rdparty/libprojectm/presets/Geiss - Casino.milk
+3rdparty/libprojectm/presets/Geiss - Cepiasound.milk
+3rdparty/libprojectm/presets/Geiss - Churn.milk
+3rdparty/libprojectm/presets/Geiss - Constant Velocity.milk
+3rdparty/libprojectm/presets/Geiss - Coral.milk
+3rdparty/libprojectm/presets/Geiss - Corpus Callosum.milk
+3rdparty/libprojectm/presets/Geiss - Cosmic Dust 1.milk
+3rdparty/libprojectm/presets/Geiss - Cosmic Dust 2.milk
+3rdparty/libprojectm/presets/Geiss - Cruzin'.milk
+3rdparty/libprojectm/presets/Geiss - Cycloid 1.milk
+3rdparty/libprojectm/presets/Geiss - Cycloid 2.milk
+3rdparty/libprojectm/presets/Geiss - Davod The Pod.milk
+3rdparty/libprojectm/presets/Geiss - De La Moutard 1.milk
+3rdparty/libprojectm/presets/Geiss - De La Moutard 2.milk
+3rdparty/libprojectm/presets/Geiss - Demonic Distortion.milk
+3rdparty/libprojectm/presets/Geiss - Descent.milk
+3rdparty/libprojectm/presets/Geiss - Destruction.milk
+3rdparty/libprojectm/presets/Geiss - Diffraction.milk
+3rdparty/libprojectm/presets/Geiss - Digital Smoke.milk
+3rdparty/libprojectm/presets/Geiss - Downward Spiral.milk
+3rdparty/libprojectm/presets/Geiss - Drift.milk
+3rdparty/libprojectm/presets/Geiss - Dynamic Swirls 1.milk
+3rdparty/libprojectm/presets/Geiss - Dynamic Swirls 2.milk
+3rdparty/libprojectm/presets/Geiss - Eddies 1.milk
+3rdparty/libprojectm/presets/Geiss - Eddies 2.milk
+3rdparty/libprojectm/presets/Geiss - Eggs.milk
+3rdparty/libprojectm/presets/Geiss - El Cubismo.milk
+3rdparty/libprojectm/presets/Geiss - Feedback 2.milk
+3rdparty/libprojectm/presets/Geiss - Feedback.milk
+3rdparty/libprojectm/presets/Geiss - Festive.milk
+3rdparty/libprojectm/presets/Geiss - Fiberglass.milk
+3rdparty/libprojectm/presets/Geiss - Flotsam.milk
+3rdparty/libprojectm/presets/Geiss - Flower Blossom.milk
+3rdparty/libprojectm/presets/Geiss - Flower.milk
+3rdparty/libprojectm/presets/Geiss - Four Kinds of Amphetamines.milk
+3rdparty/libprojectm/presets/Geiss - Galaxy 1.milk
+3rdparty/libprojectm/presets/Geiss - Galaxy 2.milk
+3rdparty/libprojectm/presets/Geiss - Greenland.milk
+3rdparty/libprojectm/presets/Geiss - Heavenly 1.milk
+3rdparty/libprojectm/presets/Geiss - Heavenly 2.milk
+3rdparty/libprojectm/presets/Geiss - Heavenly 3.milk
+3rdparty/libprojectm/presets/Geiss - High Dynamic Range.milk
+3rdparty/libprojectm/presets/Geiss - Hovering.milk
+3rdparty/libprojectm/presets/Geiss - Hyperion.milk
+3rdparty/libprojectm/presets/Geiss - Inkblot.milk
+3rdparty/libprojectm/presets/Geiss - Iris.milk
+3rdparty/libprojectm/presets/Geiss - Journey.milk
+3rdparty/libprojectm/presets/Geiss - Julia Fractal 1.milk
+3rdparty/libprojectm/presets/Geiss - Julia Fractal 2.milk
+3rdparty/libprojectm/presets/Geiss - Luz.milk
+3rdparty/libprojectm/presets/Geiss - Mega Swirl 1.milk
+3rdparty/libprojectm/presets/Geiss - Mega Swirl 2.milk
+3rdparty/libprojectm/presets/Geiss - Mega Swirl 3.milk
+3rdparty/libprojectm/presets/Geiss - Microcosm.milk
+3rdparty/libprojectm/presets/Geiss - Monotone Ripples.milk
+3rdparty/libprojectm/presets/Geiss - Music Box.milk
+3rdparty/libprojectm/presets/Geiss - Nautilus.milk
+3rdparty/libprojectm/presets/Geiss - Octopus Blue.milk
+3rdparty/libprojectm/presets/Geiss - Octopus Ever Changing.milk
+3rdparty/libprojectm/presets/Geiss - Octopus Fat and Ever Changing.milk
+3rdparty/libprojectm/presets/Geiss - Octopus Gold with Dots.milk
+3rdparty/libprojectm/presets/Geiss - Octopus Gold.milk
+3rdparty/libprojectm/presets/Geiss - Octopus.milk
+3rdparty/libprojectm/presets/Geiss - Oldskool Mellowstyle.milk
+3rdparty/libprojectm/presets/Geiss - Pelota De Fuego.milk
+3rdparty/libprojectm/presets/Geiss - Pinch.milk
+3rdparty/libprojectm/presets/Geiss - Pistons.milk
+3rdparty/libprojectm/presets/Geiss - Planet 1.milk
+3rdparty/libprojectm/presets/Geiss - Planet 2.milk
+3rdparty/libprojectm/presets/Geiss - Quasilinear Submanifolds.milk
+3rdparty/libprojectm/presets/Geiss - Reducto Absurdum.milk
+3rdparty/libprojectm/presets/Geiss - Reducto Ad Nauseum.milk
+3rdparty/libprojectm/presets/Geiss - Rocket.milk
+3rdparty/libprojectm/presets/Geiss - Runoff.milk
+3rdparty/libprojectm/presets/Geiss - Scary.milk
+3rdparty/libprojectm/presets/Geiss - Script.milk
+3rdparty/libprojectm/presets/Geiss - Serpent.milk
+3rdparty/libprojectm/presets/Geiss - Shake.milk
+3rdparty/libprojectm/presets/Geiss - Shift.milk
+3rdparty/libprojectm/presets/Geiss - Sinews 1.milk
+3rdparty/libprojectm/presets/Geiss - Sinews 2.milk
+3rdparty/libprojectm/presets/Geiss - Smoke.milk
+3rdparty/libprojectm/presets/Geiss - Solar Flare (Blue).milk
+3rdparty/libprojectm/presets/Geiss - Solar Flare (Reptile).milk
+3rdparty/libprojectm/presets/Geiss - Solar Flare.milk
+3rdparty/libprojectm/presets/Geiss - Sound And The Fury.milk
+3rdparty/libprojectm/presets/Geiss - Space Voyage (High-Warp).milk
+3rdparty/libprojectm/presets/Geiss - Space Voyage Bright.milk
+3rdparty/libprojectm/presets/Geiss - Space Voyage.milk
+3rdparty/libprojectm/presets/Geiss - Spacedust.milk
+3rdparty/libprojectm/presets/Geiss - Starfish 1.milk
+3rdparty/libprojectm/presets/Geiss - Starfish 2.milk
+3rdparty/libprojectm/presets/Geiss - Sunsets.milk
+3rdparty/libprojectm/presets/Geiss - Supernova 1.milk
+3rdparty/libprojectm/presets/Geiss - Supernova 2.milk
+3rdparty/libprojectm/presets/Geiss - Surface.milk
+3rdparty/libprojectm/presets/Geiss - Swirl 1.milk
+3rdparty/libprojectm/presets/Geiss - Swirl 2.milk
+3rdparty/libprojectm/presets/Geiss - Swirlie 1.milk
+3rdparty/libprojectm/presets/Geiss - Swirlie 2.milk
+3rdparty/libprojectm/presets/Geiss - Swirlie 3.milk
+3rdparty/libprojectm/presets/Geiss - Swirlie 4.milk
+3rdparty/libprojectm/presets/Geiss - Swirlie 5.milk
+3rdparty/libprojectm/presets/Geiss - Symmetry.milk
+3rdparty/libprojectm/presets/Geiss - The Fatty Lumpkin Sunkle Tweaker.milk
+3rdparty/libprojectm/presets/Geiss - Three And A Half Kinds Of Amphetamines.milk
+3rdparty/libprojectm/presets/Geiss - Three Kinds Of Amphetamines.milk
+3rdparty/libprojectm/presets/Geiss - Tokamak.milk
+3rdparty/libprojectm/presets/Geiss - Tornado.milk
+3rdparty/libprojectm/presets/Geiss - Toy.milk
+3rdparty/libprojectm/presets/Geiss - Trampoline.milk
+3rdparty/libprojectm/presets/Geiss - Tube.milk
+3rdparty/libprojectm/presets/Geiss - Two-Pointed Pulsagon.milk
+3rdparty/libprojectm/presets/Geiss - Ultrafast.milk
+3rdparty/libprojectm/presets/Geiss - Volume Zoom.milk
+3rdparty/libprojectm/presets/Geiss - Vortex 1.milk
+3rdparty/libprojectm/presets/Geiss - Vortex 2.milk
+3rdparty/libprojectm/presets/Geiss - Warp Of Dali 1.milk
+3rdparty/libprojectm/presets/Geiss - Warp Of Dali 2.milk
+3rdparty/libprojectm/presets/Geiss - Warp Of Dali Bright.milk
+3rdparty/libprojectm/presets/Geiss - Waterfall.milk
+3rdparty/libprojectm/presets/Geiss and Rovastar - The Chaos Of Colours (sprouting diment.milk
+3rdparty/libprojectm/presets/Idiot & Che - Various Abstract Effects.milk
+3rdparty/libprojectm/presets/Idiot & Rovastar - Altars Of Madness 2 (X.42 Mix).milk
+3rdparty/libprojectm/presets/Idiot & Zylot - Unhealthy Love (Idiot's STDs Mix).milk
+3rdparty/libprojectm/presets/Idiot - 9-7-02 (Remix) (sustain fixed).milk
+3rdparty/libprojectm/presets/Idiot - Cortex (Spiritual Visions Mix).milk
+3rdparty/libprojectm/presets/Idiot - MOTIVATION!.milk
+3rdparty/libprojectm/presets/Idiot - Madness Within The Void (Remix).milk
+3rdparty/libprojectm/presets/Idiot - Tentacle Dreams (Remix).milk
+3rdparty/libprojectm/presets/Idiot - Texture Boxes (Remix 2).milk
+3rdparty/libprojectm/presets/Idiot - Texture Boxes (Remix).milk
+3rdparty/libprojectm/presets/Idiot - Typomatic (Remix 2).milk
+3rdparty/libprojectm/presets/Idiot - What Is.milk
+3rdparty/libprojectm/presets/Idiot - What Shall Come.milk
+3rdparty/libprojectm/presets/Idiot24-7 - Ascending to heaven 2.milk
+3rdparty/libprojectm/presets/Idiot24-7 - Meeting place.milk
+3rdparty/libprojectm/presets/Illusion & Che - Return Of The King.milk
+3rdparty/libprojectm/presets/Illusion & Che - The Piper.milk
+3rdparty/libprojectm/presets/Illusion & Rovastar - Clouded Bottle.milk
+3rdparty/libprojectm/presets/Illusion & Rovastar - Snowflake Delight.milk
+3rdparty/libprojectm/presets/Illusion & Rovastar - Snowflake Return.milk
+3rdparty/libprojectm/presets/Illusion & Unchained - Frozen Eye 1.milk
+3rdparty/libprojectm/presets/Illusion & Unchained - Invade My Mind.milk
+3rdparty/libprojectm/presets/Illusion & Unchained - Re-Enter Homeworld.milk
+3rdparty/libprojectm/presets/Illusion - Figure Eight.milk
+3rdparty/libprojectm/presets/Illusion - Heavenly Eye.milk
+3rdparty/libprojectm/presets/Jess - Trying To Trap A Twister.milk
+3rdparty/libprojectm/presets/Krash & Idiot - Memories Of The Castle.milk
+3rdparty/libprojectm/presets/Krash & Illusion - Indecisive Mosaic.milk
+3rdparty/libprojectm/presets/Krash & Illusion - Spiral Movement.milk
+3rdparty/libprojectm/presets/Krash & Rovastar - A Million Miles from Earth (Ripple Mix).milk
+3rdparty/libprojectm/presets/Krash & Rovastar - Altars Of Madness (Mad Ocean Mix).milk
+3rdparty/libprojectm/presets/Krash & Rovastar - Cerebral Demons (Distant Memory Mix).milk
+3rdparty/libprojectm/presets/Krash & Rovastar - Cerebral Demons - Phat + Eo.S. hall of ghouls Remix.milk
+3rdparty/libprojectm/presets/Krash & Rovastar - Switching Polygons.milk
+3rdparty/libprojectm/presets/Krash & Rovastar - The Devil Is In The Details.milk
+3rdparty/libprojectm/presets/Krash & TEcHNO - Rhythmic Mantas.milk
+3rdparty/libprojectm/presets/Krash & Zylot - Inside The Planar Portal (Indecision Mix).milk
+3rdparty/libprojectm/presets/Krash - 3D Shapes Demo 2.milk
+3rdparty/libprojectm/presets/Krash - 3D Shapes Demo.milk
+3rdparty/libprojectm/presets/Krash - Digital Flame.milk
+3rdparty/libprojectm/presets/Krash - Dynamic Borders 1.milk
+3rdparty/libprojectm/presets/Krash - Framed Geometry.milk
+3rdparty/libprojectm/presets/Krash - Pulse.milk
+3rdparty/libprojectm/presets/Krash - Season's Greetings 2.milk
+3rdparty/libprojectm/presets/Krash - Twisting Indecision.milk
+3rdparty/libprojectm/presets/Krash - War Machine (Shifting Complexity Mix).milk
+3rdparty/libprojectm/presets/Krash - Windowframe To Mega Swirl 2.milk
+3rdparty/libprojectm/presets/Krash and Fvese - Molten Indecision (Fvese Remix).milk
+3rdparty/libprojectm/presets/Krash and Rovastar - Rainbow Orb.milk
+3rdparty/libprojectm/presets/M.tga
+3rdparty/libprojectm/presets/Mstress & Juppy - Dancer.milk
+3rdparty/libprojectm/presets/Mstress & Juppy - Dancers In The Dark.milk
+3rdparty/libprojectm/presets/Mstress - Acoustic Nerve Impulses (Under Drug Effetcs (Hypn.milk
+3rdparty/libprojectm/presets/Mstress - Snowing Fiber City.milk
+3rdparty/libprojectm/presets/Phat+fiShbRaiN+Eo.S_Mandala_Chasers_remix - www.eos4life.com.milk
+3rdparty/libprojectm/presets/Phat+fiShbRaiN+Eo.S_Mandala_Chasers_remix.milk
+3rdparty/libprojectm/presets/PieturP - triptrap_(getting_concrete_visions_through_a_diafragma_version).milk
+3rdparty/libprojectm/presets/PieturP - triptrap_(ultimate-trip-mix).milk
+3rdparty/libprojectm/presets/Redi Jedi - acid in your brain.milk
+3rdparty/libprojectm/presets/Redi Jedi - multiple points of origin, one destination.milk
+3rdparty/libprojectm/presets/Reenen - phoenix.milk
+3rdparty/libprojectm/presets/Rocke - Cold Love (Tei Zwaa).milk
+3rdparty/libprojectm/presets/Rocke - Personal Comet.milk
+3rdparty/libprojectm/presets/Rovastar & Aderrasi - Oceanic Bassograph (Underwater Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Che - Adela The Flower (Altars Of Madness Mix 2).milk
+3rdparty/libprojectm/presets/Rovastar & Che - Asylum Animations.milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Dark Subconscious.milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Deadly Flower.milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Mosaic Waves.milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Paranormal Static.milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Stranger Minds (Astral Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Fvese - Stranger Minds.milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Approach (Vectrip Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Bipolar 2 (Vectrip Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Broken Destiny Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Mysticial Awakening Mi.milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Poltergiest Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Smoke Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Smoking Delusion Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Dynamic Swirls 3 (Voyage Of Twisted Soul.milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Ice Planet.milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Octoplasm.milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Octotrip (MultiTrip Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Geiss - Octotrip.milk
+3rdparty/libprojectm/presets/Rovastar & Idiot24-7 - Balk Acid.milk
+3rdparty/libprojectm/presets/Rovastar & Idiot24-7 - Mixed Emotions (Harlequin's Shame Mi.milk
+3rdparty/libprojectm/presets/Rovastar & Idiot24-7 - Mixed Emotions (Harlequin's Shame Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Illusion - Shifting Sphere.milk
+3rdparty/libprojectm/presets/Rovastar & Krash - Cerebral Demons.milk
+3rdparty/libprojectm/presets/Rovastar & Krash - Flowing Synergy.milk
+3rdparty/libprojectm/presets/Rovastar & Krash - Interwoven (Contra Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Rocke - Answer.42 (Trippy S. Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Rocke - Headspin.milk
+3rdparty/libprojectm/presets/Rovastar & Rocke - Sugar Spun Sister.milk
+3rdparty/libprojectm/presets/Rovastar & Sperl - Tuxflower.prjm
+3rdparty/libprojectm/presets/Rovastar & StudioMusic - More Cherished Desires.milk
+3rdparty/libprojectm/presets/Rovastar & StudioMusic - Twisted Spider Web.milk
+3rdparty/libprojectm/presets/Rovastar & Telek - Altars of Madness (Rolling Oceans Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Telek - Cosmic Fireworks.milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Ambrosia Mystic (Dark Heart Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Centre Of Gravity.milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Demonology (Vampire Soul Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Oddball World.milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Voodoo Chess Magnet (Everglow Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Unchained - Xen Traffic.milk
+3rdparty/libprojectm/presets/Rovastar & Zylot - Azirphaeli's Plan (Multiplan Mix).milk
+3rdparty/libprojectm/presets/Rovastar & Zylot - Narell's Fever.milk
+3rdparty/libprojectm/presets/Rovastar & Zylot - Passion Flower.milk
+3rdparty/libprojectm/presets/Rovastar & Zylot - Sea Of Zigrot.milk
+3rdparty/libprojectm/presets/Rovastar - A Million Miles From Earth (Wormhole Mix).milk
+3rdparty/libprojectm/presets/Rovastar - A Million Miles from Earth (Pathfinder Mix).milk
+3rdparty/libprojectm/presets/Rovastar - A Million Miles from Earth.milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Harlequin's Maddess.milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Harlequin's Madness (Dark Disorder Mix.milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness (A Million Miles From Earth Mi.milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness (Boxfresh Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness (Duel Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness (Surealist Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness 2 (Frozen Time Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness 4 (Spirit Of Twisted Madness M.milk
+3rdparty/libprojectm/presets/Rovastar - Altars Of Madness.milk
+3rdparty/libprojectm/presets/Rovastar - Attacking Freedom.milk
+3rdparty/libprojectm/presets/Rovastar - Bellanova (New Wave Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Biohazard Warning.milk
+3rdparty/libprojectm/presets/Rovastar - Chapel Of Ghouls.milk
+3rdparty/libprojectm/presets/Rovastar - Chemical Spirituality.milk
+3rdparty/libprojectm/presets/Rovastar - Clouded Judgement 3.milk
+3rdparty/libprojectm/presets/Rovastar - Cosmic Echoes 1.milk
+3rdparty/libprojectm/presets/Rovastar - Cosmic Echoes 2.milk
+3rdparty/libprojectm/presets/Rovastar - Cosmic Havoc.milk
+3rdparty/libprojectm/presets/Rovastar - Cosmic Mosaic (Active Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Dark Ritual (Star Of Destiny Denied Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Dark Ritual (Star Of Destiny Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Decreasing Dreams (Extended Movement Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Dreamcatcher.milk
+3rdparty/libprojectm/presets/Rovastar - Explosive Minds.milk
+3rdparty/libprojectm/presets/Rovastar - Forgotten Moon.milk
+3rdparty/libprojectm/presets/Rovastar - Fractopia (Fantic Dancing Lights Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Fractopia (Galaxy Swirl Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Fractopia (Upspoken Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Fractopia (Upspoken Mix)_Phat_Speak_When_Spoken_2.milk
+3rdparty/libprojectm/presets/Rovastar - Frozen Rapture .milk
+3rdparty/libprojectm/presets/Rovastar - Future Speakers.milk
+3rdparty/libprojectm/presets/Rovastar - Halcyon Dreams 3.milk
+3rdparty/libprojectm/presets/Rovastar - Hallucinogenic Pyramids (Beat Time Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Delight (Endless Tunnel Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Dynamic Fractal (Crazed Spiral Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Dynamic Fractal (Dual Spiral Mix ).milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Dynamic Fractal 1.milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Dynamic Fractal 2.milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Dynamic Fractal 3.milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Fractal Encounter 2.milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Fractal Encounter.milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Spirit (Twisted Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Harlequin's Spirit.milk
+3rdparty/libprojectm/presets/Rovastar - Hyperspace (Frozen Rapture Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Hyperspace (Hyper Speed Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Hyperspace.milk
+3rdparty/libprojectm/presets/Rovastar - Inner Thoughts (Clouded Judgement Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Inner Thoughts (Dark Secret Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Inner Thoughts (Distant Memories Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Inner Thoughts (Frantic Thoughts Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Inner Thoughts (Strange Cargo Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Kalideostars (Altars Of Madness MIx).milk
+3rdparty/libprojectm/presets/Rovastar - Kalideostars (Round  Round Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Kalideostars.milk
+3rdparty/libprojectm/presets/Rovastar - LabFunk.milk
+3rdparty/libprojectm/presets/Rovastar - Lost Souls of the Bermuda Triangle (Darkest Soul.milk
+3rdparty/libprojectm/presets/Rovastar - Magic Carpet.milk
+3rdparty/libprojectm/presets/Rovastar - Mosaics Of Ages.milk
+3rdparty/libprojectm/presets/Rovastar - Multiverse Starfield 1.milk
+3rdparty/libprojectm/presets/Rovastar - Multiverse Starfield 3.milk
+3rdparty/libprojectm/presets/Rovastar - Omnipresence Resurrection (Raw Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Omnipresence Resurrection.milk
+3rdparty/libprojectm/presets/Rovastar - Oozing Resistance.milk
+3rdparty/libprojectm/presets/Rovastar - Pandora's Volcano.milk
+3rdparty/libprojectm/presets/Rovastar - Parallel Universe.milk
+3rdparty/libprojectm/presets/Rovastar - Sea Shells.milk
+3rdparty/libprojectm/presets/Rovastar - Snapshot Of Space.milk
+3rdparty/libprojectm/presets/Rovastar - Solarized Space (Space DNA Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Solarized Space.milk
+3rdparty/libprojectm/presets/Rovastar - Space (Twisted Dimension Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Space.milk
+3rdparty/libprojectm/presets/Rovastar - Starquake (Sunquake Mix).milk
+3rdparty/libprojectm/presets/Rovastar - The Awakening.milk
+3rdparty/libprojectm/presets/Rovastar - The Chaos Of Colours (Drifting Mix).milk
+3rdparty/libprojectm/presets/Rovastar - The Chaos Of Colours.milk
+3rdparty/libprojectm/presets/Rovastar - The Shroomery.milk
+3rdparty/libprojectm/presets/Rovastar - Timeless Voyage.milk
+3rdparty/libprojectm/presets/Rovastar - Touchdown on Mars (Detailed Pictures Mix).milk
+3rdparty/libprojectm/presets/Rovastar - Tripmaker.milk
+3rdparty/libprojectm/presets/Rovastar - VooV's Movement (After Dark Mix).milk
+3rdparty/libprojectm/presets/Rovastar - VooV's Movement.milk
+3rdparty/libprojectm/presets/Rovastar - twisted bytes.milk
+3rdparty/libprojectm/presets/Rovastar and Krash - Hallucinogenic Pyramids (Extra Beat Ti.milk
+3rdparty/libprojectm/presets/Rovastar and Unchained - Braindance Visions.milk
+3rdparty/libprojectm/presets/Rovastar and Unchained - Life After Pie (Remix).milk
+3rdparty/libprojectm/presets/Rozzer & Zylot - Force Field Generator (Slowtime Tweak).milk
+3rdparty/libprojectm/presets/Rozzor & Aderrasi - Canon.milk
+3rdparty/libprojectm/presets/Rozzor & Che - Inside The House Of Nil.milk
+3rdparty/libprojectm/presets/Rozzor & Rovastar - Oozing Resistance (Waveform Mod).milk
+3rdparty/libprojectm/presets/Rozzor - Learning Curve (Invert tweak).milk
+3rdparty/libprojectm/presets/Rozzor and Idiot - Any Other Deep Rising.milk
+3rdparty/libprojectm/presets/Rozzor and Rovastar - Altars Of Madness 3 (ooze tweak with .milk
+3rdparty/libprojectm/presets/Rozzor and Rovastar - Altars Of Madness 3 (ooze tweak).milk
+3rdparty/libprojectm/presets/Rozzor and StudioMusic - Vertigyny (Geiss shape mod).milk
+3rdparty/libprojectm/presets/Rozzor and Zylot - Associative Order.milk
+3rdparty/libprojectm/presets/Rozzor and che - Inside the House of nil.milk
+3rdparty/libprojectm/presets/Studio Music - Cherished Desires.milk
+3rdparty/libprojectm/presets/Studio Music and Unchained - Rapid Alteration.milk
+3rdparty/libprojectm/presets/StudioMusic & Unchained - Entity.milk
+3rdparty/libprojectm/presets/StudioMusic & Unchained - Minor Alteration.milk
+3rdparty/libprojectm/presets/StudioMusic & Unchained - So Much Love.milk
+3rdparty/libprojectm/presets/StudioMusic & Unchained - State Of Discretion.milk
+3rdparty/libprojectm/presets/StudioMusic & Unchained - Wrenched Fate.milk
+3rdparty/libprojectm/presets/StudioMusic - Harmonic Bliss (elated mix).milk
+3rdparty/libprojectm/presets/StudioMusic - It's Only Make Believe.milk
+3rdparty/libprojectm/presets/StudioMusic - Numerosity.milk
+3rdparty/libprojectm/presets/StudioMusic - Twisted Galaxy.milk
+3rdparty/libprojectm/presets/StudioMusic Aderrasi & nil - LA movement (Intellectual Sens.milk
+3rdparty/libprojectm/presets/TEcHNO and SandStorm - Psychodelic Highway.milk
+3rdparty/libprojectm/presets/Telek - City Helix Lattice.milk
+3rdparty/libprojectm/presets/Telek - Directive Swagger (Spectral Inferno) (fix...) maybe.milk
+3rdparty/libprojectm/presets/Telek - Flicker (xis).milk
+3rdparty/libprojectm/presets/Telek - Flicker.milk
+3rdparty/libprojectm/presets/Telek - Lost Star (Flash).milk
+3rdparty/libprojectm/presets/Telek - Recirculate (Cool).milk
+3rdparty/libprojectm/presets/Telek - Sine Wave.milk
+3rdparty/libprojectm/presets/Telek - Slow Shift Matrix (Ethereal Drift).milk
+3rdparty/libprojectm/presets/Telek - Slow Shift Matrix (bb4.5).milk
+3rdparty/libprojectm/presets/Telek - Slow Shift Matrix.milk
+3rdparty/libprojectm/presets/Telek - Slow Thing (Spiderman Mix).milk
+3rdparty/libprojectm/presets/Telek - Spiral Tabletop (New and Improved!).milk
+3rdparty/libprojectm/presets/Telek - Spokes (More Dynamic).milk
+3rdparty/libprojectm/presets/Telek - Target Practice (tracking retreat slide).milk
+3rdparty/libprojectm/presets/Telek EMPR - Scanner - Trust me I've got a Melways.milk
+3rdparty/libprojectm/presets/TobiasWolfBoi - Cataract.milk
+3rdparty/libprojectm/presets/TobiasWolfBoi - The Pit.milk
+3rdparty/libprojectm/presets/Tschoey - Music Flower.milk
+3rdparty/libprojectm/presets/Tux.tga
+3rdparty/libprojectm/presets/Unchained & CTho - Bad Vibes.milk
+3rdparty/libprojectm/presets/Unchained & Che - Oddnezz 3.milk
+3rdparty/libprojectm/presets/Unchained & Che - Oddnezz 4 (Done it again).milk
+3rdparty/libprojectm/presets/Unchained & Illusion - Dual Wave 3.milk
+3rdparty/libprojectm/presets/Unchained & Illusion - Logic Morph.milk
+3rdparty/libprojectm/presets/Unchained & Illusion - Spirit Morph.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - For The Seagull.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Luckless.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Rainbow Obscura.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Slow Solstice.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Triptionary.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Wormhole Pillars (Hall of Shadows mi.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Wormhole Pillars.milk
+3rdparty/libprojectm/presets/Unchained & Rovastar - Xen Traffic.milk
+3rdparty/libprojectm/presets/Unchained - A Matter Of Taste (Remix).milk
+3rdparty/libprojectm/presets/Unchained - All You Can Eat.milk
+3rdparty/libprojectm/presets/Unchained - Bad Karma Oddnezz Style.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo (Demonology Mix).milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 1.0.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 10.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 2.0.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 2.1.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 2.2.milk
+3rdparty/libprojectm/presets/Unchained - Beat Demo 2.3.milk
+3rdparty/libprojectm/presets/Unchained - Cartoon Factory.milk
+3rdparty/libprojectm/presets/Unchained - Cranked On Failure.milk
+3rdparty/libprojectm/presets/Unchained - Custom Gramatix (Remix).milk
+3rdparty/libprojectm/presets/Unchained - Deeper Logic.milk
+3rdparty/libprojectm/presets/Unchained - Free to Feel (Valium Remix).milk
+3rdparty/libprojectm/presets/Unchained - French Clothing.milk
+3rdparty/libprojectm/presets/Unchained - Games With Light & Sound.milk
+3rdparty/libprojectm/presets/Unchained - Ghostlight Whisper.milk
+3rdparty/libprojectm/presets/Unchained - God Of The Game (Remix).milk
+3rdparty/libprojectm/presets/Unchained - Goo Kung Fu.milk
+3rdparty/libprojectm/presets/Unchained - Goofy Beat Detection.milk
+3rdparty/libprojectm/presets/Unchained - Housed In A Childish Mind.milk
+3rdparty/libprojectm/presets/Unchained - In Memory Of Peg.milk
+3rdparty/libprojectm/presets/Unchained - Invariant Under Rigorous Motions.milk
+3rdparty/libprojectm/presets/Unchained - Jaded Emotion.milk
+3rdparty/libprojectm/presets/Unchained - Jaundice.milk
+3rdparty/libprojectm/presets/Unchained - Making a Science of It 4.milk
+3rdparty/libprojectm/presets/Unchained - Morat's Final Voyage.milk
+3rdparty/libprojectm/presets/Unchained - Non-Professional Music Analyzer.milk
+3rdparty/libprojectm/presets/Unchained - Painful Plasma (Multi-Wave Mirrored Rage) -- Ro.milk
+3rdparty/libprojectm/presets/Unchained - Perverted Dialect.milk
+3rdparty/libprojectm/presets/Unchained - Picture Of Exile.milk
+3rdparty/libprojectm/presets/Unchained - Picture Of Nectar.milk
+3rdparty/libprojectm/presets/Unchained - Picture Of Poison.milk
+3rdparty/libprojectm/presets/Unchained - ReAwoke.milk
+3rdparty/libprojectm/presets/Unchained - Resistance.milk
+3rdparty/libprojectm/presets/Unchained - Ribald Ballad.milk
+3rdparty/libprojectm/presets/Unchained - Shaping The Grid.milk
+3rdparty/libprojectm/presets/Unchained - Subjective Experience Of The Manifold.milk
+3rdparty/libprojectm/presets/Unchained - Unclaimed Wreckage 2 (Shamanic).milk
+3rdparty/libprojectm/presets/Unchained - Unclaimed Wreckage.milk
+3rdparty/libprojectm/presets/Unchained - Unified Drag 2.milk
+3rdparty/libprojectm/presets/Unchained - Working the Grid.milk
+3rdparty/libprojectm/presets/Unchained - ventilation.milk
+3rdparty/libprojectm/presets/Zylot & Aderrasi - Oceanic Bassograph (New Jersey Shore Mix.milk
+3rdparty/libprojectm/presets/Zylot & Idiot - ATan2 Demo (Spiraling Mad Mix).milk
+3rdparty/libprojectm/presets/Zylot & Krash - Extremophile.milk
+3rdparty/libprojectm/presets/Zylot & Mstress - Celebrate.milk
+3rdparty/libprojectm/presets/Zylot & Mstress - Toxic Storm On Acid Sea (The End Of The W.milk
+3rdparty/libprojectm/presets/Zylot & Rovastar - Crystal Ball (Cerimonial Decor Mix).milk
+3rdparty/libprojectm/presets/Zylot - Azirphaeli's Mirror.milk
+3rdparty/libprojectm/presets/Zylot - Block Of Sound (Abstract Architecture Mix).milk
+3rdparty/libprojectm/presets/Zylot - Block Of Sound (Fractal Construction Mix).milk
+3rdparty/libprojectm/presets/Zylot - Color Of Music.milk
+3rdparty/libprojectm/presets/Zylot - Crystal Ball (Magical Reaction Mix).milk
+3rdparty/libprojectm/presets/Zylot - De(-a)range(d)(ment) complex.milk
+3rdparty/libprojectm/presets/Zylot - De(-a)range(d)(ment) strain.milk
+3rdparty/libprojectm/presets/Zylot - Digiscape Advanced Processor.milk
+3rdparty/libprojectm/presets/Zylot - Ether Storm.milk
+3rdparty/libprojectm/presets/Zylot - Global Earthquake.milk
+3rdparty/libprojectm/presets/Zylot - Inside The Planar Portal.milk
+3rdparty/libprojectm/presets/Zylot - Mixing Pot.milk
+3rdparty/libprojectm/presets/Zylot - Puddle Of Music.milk
+3rdparty/libprojectm/presets/Zylot - Rainbow Planet Under Attack.milk
+3rdparty/libprojectm/presets/Zylot - Rush.milk
+3rdparty/libprojectm/presets/Zylot - S Pulse Virus.milk
+3rdparty/libprojectm/presets/Zylot - String.milk
+3rdparty/libprojectm/presets/Zylot - Tangent Universe (Collapsed With Artifact Mix).milk
+3rdparty/libprojectm/presets/Zylot - The Deeper.milk
+3rdparty/libprojectm/presets/Zylot - The Inner Workings of my New Computer.milk
+3rdparty/libprojectm/presets/Zylot - Visionarie (geiss aspect ratio fix).milk
+3rdparty/libprojectm/presets/Zylot - Waves Of Blood.milk
+3rdparty/libprojectm/presets/Zylot - Wisps.milk
+3rdparty/libprojectm/presets/Zylot - light of the path.milk
+3rdparty/libprojectm/presets/Zylot and Rovastar - Iouo Stone Morphic Fusion.milk
+3rdparty/libprojectm/presets/[Ishan] - Life in the drains.milk
+3rdparty/libprojectm/presets/baked - mushroom rainbows[2].milk
+3rdparty/libprojectm/presets/che - adela the flower.milk
+3rdparty/libprojectm/presets/che - burning hus (oil mix).milk
+3rdparty/libprojectm/presets/che - terracarbon stream.milk
+3rdparty/libprojectm/presets/fiShbRaiN - blueprint.milk
+3rdparty/libprojectm/presets/headphones.tga
+3rdparty/libprojectm/presets/idiot - Nothing Yet - 03 - The worst of the pack.milk
+3rdparty/libprojectm/presets/idiot - Nucleus.milk
+3rdparty/libprojectm/presets/idiot - Sinful Code (unchained style).milk
+3rdparty/libprojectm/presets/idiot - Some big word I learned.milk
+3rdparty/libprojectm/presets/idiot - Spectrum.milk
+3rdparty/libprojectm/presets/illusion & studio music - charged bliss.milk
+3rdparty/libprojectm/presets/nil - Can't Stop the Blithering.milk
+3rdparty/libprojectm/presets/nil - Can't Stop the Cramming.milk
+3rdparty/libprojectm/presets/nil - Cid and Lucy.milk
+3rdparty/libprojectm/presets/nil - Disco Comet.milk
+3rdparty/libprojectm/presets/nil - Singularity in My Oscilloscope.milk
+3rdparty/libprojectm/presets/nil - Vortex of Vortices.milk
+3rdparty/libprojectm/presets/project.tga
+3rdparty/libprojectm/presets/shifter - escape the worm - Eo.S. + Phat - Before_It_Eats_Your_Brain_Mix_v2.milk
+3rdparty/libprojectm/presets/shifter - escape the worm - Eo.S. + Phat 5362.milk
+3rdparty/libprojectm/projectM.cpp
+3rdparty/libprojectm/projectM.dsp
+3rdparty/libprojectm/projectM.hpp
+3rdparty/libprojectm/resource.h
+3rdparty/libprojectm/sdltoprojectM.h
+3rdparty/libprojectm/timer.cpp
+3rdparty/libprojectm/timer.h
+3rdparty/libprojectm/win32-dirent.cpp
+3rdparty/libprojectm/win32-dirent.h
+3rdparty/libprojectm/wipemalloc.cpp
+3rdparty/libprojectm/wipemalloc.h
+3rdparty/qocoa/CMakeLists.txt
+3rdparty/qocoa/LICENSE.txt
+3rdparty/qocoa/Qocoa.pro
+3rdparty/qocoa/README.md
+3rdparty/qocoa/TODO.md
+3rdparty/qocoa/gallery.cpp
+3rdparty/qocoa/gallery.h
+3rdparty/qocoa/gallery.png
+3rdparty/qocoa/main.cpp
+3rdparty/qocoa/qbutton.h
+3rdparty/qocoa/qbutton_mac.mm
+3rdparty/qocoa/qbutton_nonmac.cpp
+3rdparty/qocoa/qocoa_mac.h
+3rdparty/qocoa/qprogressindicatorspinning.h
+3rdparty/qocoa/qprogressindicatorspinning_mac.mm
+3rdparty/qocoa/qprogressindicatorspinning_nonmac.cpp
+3rdparty/qocoa/qprogressindicatorspinning_nonmac.gif
+3rdparty/qocoa/qprogressindicatorspinning_nonmac.qrc
+3rdparty/qocoa/qsearchfield.h
+3rdparty/qocoa/qsearchfield_mac.mm
+3rdparty/qocoa/qsearchfield_nonmac.cpp
+3rdparty/qsqlite/CMakeLists.txt
+3rdparty/qsqlite/LICENSE.LGPL
+3rdparty/qsqlite/README
+3rdparty/qsqlite/clementinesqlcachedresult.cpp
+3rdparty/qsqlite/clementinesqlcachedresult.h
+3rdparty/qsqlite/qsql_sqlite.cpp
+3rdparty/qsqlite/qsql_sqlite.h
+3rdparty/qsqlite/qsqlite.json
+3rdparty/qsqlite/qsqlite_resource.rc
+3rdparty/qsqlite/smain.cpp
+3rdparty/qsqlite/smain.h
+3rdparty/qtiocompressor/CMakeLists.txt
+3rdparty/qtiocompressor/LGPL_EXCEPTION.txt
+3rdparty/qtiocompressor/LICENSE.GPL3
+3rdparty/qtiocompressor/QtIOCompressor
+3rdparty/qtiocompressor/qtiocompressor.cpp
+3rdparty/qtiocompressor/qtiocompressor.h
+3rdparty/qtsingleapplication/CMakeLists.txt
+3rdparty/qtsingleapplication/LICENSE.LGPL
+3rdparty/qtsingleapplication/qtlocalpeer.cpp
+3rdparty/qtsingleapplication/qtlocalpeer.h
+3rdparty/qtsingleapplication/qtlockedfile.cpp
+3rdparty/qtsingleapplication/qtlockedfile.h
+3rdparty/qtsingleapplication/qtlockedfile_unix.cpp
+3rdparty/qtsingleapplication/qtlockedfile_win.cpp
+3rdparty/qtsingleapplication/qtsingleapplication.cpp
+3rdparty/qtsingleapplication/qtsingleapplication.h
+3rdparty/qtsingleapplication/qtsinglecoreapplication.cpp
+3rdparty/qtsingleapplication/qtsinglecoreapplication.h
+3rdparty/qxt/CMakeLists.txt
+3rdparty/qxt/LICENSE
+3rdparty/qxt/keymapper_x11.h
+3rdparty/qxt/qxtglobal.cpp
+3rdparty/qxt/qxtglobal.h
+3rdparty/qxt/qxtglobalshortcut.cpp
+3rdparty/qxt/qxtglobalshortcut.h
+3rdparty/qxt/qxtglobalshortcut_mac.cpp
+3rdparty/qxt/qxtglobalshortcut_p.h
+3rdparty/qxt/qxtglobalshortcut_win.cpp
+3rdparty/qxt/qxtglobalshortcut_x11.cpp
+3rdparty/taglib/CMakeLists.txt
+3rdparty/taglib/ConfigureChecks.cmake
+3rdparty/taglib/ape/ape-tag-format.txt
+3rdparty/taglib/ape/apefile.cpp
+3rdparty/taglib/ape/apefile.h
+3rdparty/taglib/ape/apefooter.cpp
+3rdparty/taglib/ape/apefooter.h
+3rdparty/taglib/ape/apeitem.cpp
+3rdparty/taglib/ape/apeitem.h
+3rdparty/taglib/ape/apeproperties.cpp
+3rdparty/taglib/ape/apeproperties.h
+3rdparty/taglib/ape/apetag.cpp
+3rdparty/taglib/ape/apetag.h
+3rdparty/taglib/asf/asfattribute.cpp
+3rdparty/taglib/asf/asfattribute.h
+3rdparty/taglib/asf/asffile.cpp
+3rdparty/taglib/asf/asffile.h
+3rdparty/taglib/asf/asfpicture.cpp
+3rdparty/taglib/asf/asfpicture.h
+3rdparty/taglib/asf/asfproperties.cpp
+3rdparty/taglib/asf/asfproperties.h
+3rdparty/taglib/asf/asftag.cpp
+3rdparty/taglib/asf/asftag.h
+3rdparty/taglib/asf/asfutils.h
+3rdparty/taglib/audioproperties.cpp
+3rdparty/taglib/audioproperties.h
+3rdparty/taglib/config.h.cmake
+3rdparty/taglib/dsdiff/dsdiffdiintag.cpp
+3rdparty/taglib/dsdiff/dsdiffdiintag.h
+3rdparty/taglib/dsdiff/dsdifffile.cpp
+3rdparty/taglib/dsdiff/dsdifffile.h
+3rdparty/taglib/dsdiff/dsdiffproperties.cpp
+3rdparty/taglib/dsdiff/dsdiffproperties.h
+3rdparty/taglib/dsf/dsffile.cpp
+3rdparty/taglib/dsf/dsffile.h
+3rdparty/taglib/dsf/dsfproperties.cpp
+3rdparty/taglib/dsf/dsfproperties.h
+3rdparty/taglib/fileref.cpp
+3rdparty/taglib/fileref.h
+3rdparty/taglib/flac/flacfile.cpp
+3rdparty/taglib/flac/flacfile.h
+3rdparty/taglib/flac/flacmetadatablock.cpp
+3rdparty/taglib/flac/flacmetadatablock.h
+3rdparty/taglib/flac/flacpicture.cpp
+3rdparty/taglib/flac/flacpicture.h
+3rdparty/taglib/flac/flacproperties.cpp
+3rdparty/taglib/flac/flacproperties.h
+3rdparty/taglib/flac/flacunknownmetadatablock.cpp
+3rdparty/taglib/flac/flacunknownmetadatablock.h
+3rdparty/taglib/it/itfile.cpp
+3rdparty/taglib/it/itfile.h
+3rdparty/taglib/it/itproperties.cpp
+3rdparty/taglib/it/itproperties.h
+3rdparty/taglib/mod/modfile.cpp
+3rdparty/taglib/mod/modfile.h
+3rdparty/taglib/mod/modfilebase.cpp
+3rdparty/taglib/mod/modfilebase.h
+3rdparty/taglib/mod/modfileprivate.h
+3rdparty/taglib/mod/modproperties.cpp
+3rdparty/taglib/mod/modproperties.h
+3rdparty/taglib/mod/modtag.cpp
+3rdparty/taglib/mod/modtag.h
+3rdparty/taglib/mp4/mp4atom.cpp
+3rdparty/taglib/mp4/mp4atom.h
+3rdparty/taglib/mp4/mp4coverart.cpp
+3rdparty/taglib/mp4/mp4coverart.h
+3rdparty/taglib/mp4/mp4file.cpp
+3rdparty/taglib/mp4/mp4file.h
+3rdparty/taglib/mp4/mp4item.cpp
+3rdparty/taglib/mp4/mp4item.h
+3rdparty/taglib/mp4/mp4properties.cpp
+3rdparty/taglib/mp4/mp4properties.h
+3rdparty/taglib/mp4/mp4tag.cpp
+3rdparty/taglib/mp4/mp4tag.h
+3rdparty/taglib/mpc/mpcfile.cpp
+3rdparty/taglib/mpc/mpcfile.h
+3rdparty/taglib/mpc/mpcproperties.cpp
+3rdparty/taglib/mpc/mpcproperties.h
+3rdparty/taglib/mpeg/id3v1/id3v1genres.cpp
+3rdparty/taglib/mpeg/id3v1/id3v1genres.h
+3rdparty/taglib/mpeg/id3v1/id3v1tag.cpp
+3rdparty/taglib/mpeg/id3v1/id3v1tag.h
+3rdparty/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3rdparty/taglib/mpeg/id3v2/frames/chapterframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/chapterframe.h
+3rdparty/taglib/mpeg/id3v2/frames/commentsframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/commentsframe.h
+3rdparty/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
+3rdparty/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
+3rdparty/taglib/mpeg/id3v2/frames/ownershipframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/ownershipframe.h
+3rdparty/taglib/mpeg/id3v2/frames/podcastframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/podcastframe.h
+3rdparty/taglib/mpeg/id3v2/frames/popularimeterframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/popularimeterframe.h
+3rdparty/taglib/mpeg/id3v2/frames/privateframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/privateframe.h
+3rdparty/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/relativevolumeframe.h
+3rdparty/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
+3rdparty/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
+3rdparty/taglib/mpeg/id3v2/frames/textidentificationframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/textidentificationframe.h
+3rdparty/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+3rdparty/taglib/mpeg/id3v2/frames/unknownframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/unknownframe.h
+3rdparty/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+3rdparty/taglib/mpeg/id3v2/frames/urllinkframe.cpp
+3rdparty/taglib/mpeg/id3v2/frames/urllinkframe.h
+3rdparty/taglib/mpeg/id3v2/id3v2.2.0.txt
+3rdparty/taglib/mpeg/id3v2/id3v2.3.0.txt
+3rdparty/taglib/mpeg/id3v2/id3v2.4.0-frames.txt
+3rdparty/taglib/mpeg/id3v2/id3v2.4.0-structure.txt
+3rdparty/taglib/mpeg/id3v2/id3v2extendedheader.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2extendedheader.h
+3rdparty/taglib/mpeg/id3v2/id3v2footer.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2footer.h
+3rdparty/taglib/mpeg/id3v2/id3v2frame.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2frame.h
+3rdparty/taglib/mpeg/id3v2/id3v2framefactory.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2framefactory.h
+3rdparty/taglib/mpeg/id3v2/id3v2header.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2header.h
+3rdparty/taglib/mpeg/id3v2/id3v2synchdata.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2synchdata.h
+3rdparty/taglib/mpeg/id3v2/id3v2tag.cpp
+3rdparty/taglib/mpeg/id3v2/id3v2tag.h
+3rdparty/taglib/mpeg/mpegfile.cpp
+3rdparty/taglib/mpeg/mpegfile.h
+3rdparty/taglib/mpeg/mpegheader.cpp
+3rdparty/taglib/mpeg/mpegheader.h
+3rdparty/taglib/mpeg/mpegproperties.cpp
+3rdparty/taglib/mpeg/mpegproperties.h
+3rdparty/taglib/mpeg/mpegutils.h
+3rdparty/taglib/mpeg/xingheader.cpp
+3rdparty/taglib/mpeg/xingheader.h
+3rdparty/taglib/ogg/flac/oggflacfile.cpp
+3rdparty/taglib/ogg/flac/oggflacfile.h
+3rdparty/taglib/ogg/oggfile.cpp
+3rdparty/taglib/ogg/oggfile.h
+3rdparty/taglib/ogg/oggpage.cpp
+3rdparty/taglib/ogg/oggpage.h
+3rdparty/taglib/ogg/oggpageheader.cpp
+3rdparty/taglib/ogg/oggpageheader.h
+3rdparty/taglib/ogg/opus/opusfile.cpp
+3rdparty/taglib/ogg/opus/opusfile.h
+3rdparty/taglib/ogg/opus/opusproperties.cpp
+3rdparty/taglib/ogg/opus/opusproperties.h
+3rdparty/taglib/ogg/speex/speexfile.cpp
+3rdparty/taglib/ogg/speex/speexfile.h
+3rdparty/taglib/ogg/speex/speexproperties.cpp
+3rdparty/taglib/ogg/speex/speexproperties.h
+3rdparty/taglib/ogg/vorbis/vorbisfile.cpp
+3rdparty/taglib/ogg/vorbis/vorbisfile.h
+3rdparty/taglib/ogg/vorbis/vorbisproperties.cpp
+3rdparty/taglib/ogg/vorbis/vorbisproperties.h
+3rdparty/taglib/ogg/xiphcomment.cpp
+3rdparty/taglib/ogg/xiphcomment.h
+3rdparty/taglib/riff/aiff/aifffile.cpp
+3rdparty/taglib/riff/aiff/aifffile.h
+3rdparty/taglib/riff/aiff/aiffproperties.cpp
+3rdparty/taglib/riff/aiff/aiffproperties.h
+3rdparty/taglib/riff/rifffile.cpp
+3rdparty/taglib/riff/rifffile.h
+3rdparty/taglib/riff/riffutils.h
+3rdparty/taglib/riff/wav/infotag.cpp
+3rdparty/taglib/riff/wav/infotag.h
+3rdparty/taglib/riff/wav/wavfile.cpp
+3rdparty/taglib/riff/wav/wavfile.h
+3rdparty/taglib/riff/wav/wavproperties.cpp
+3rdparty/taglib/riff/wav/wavproperties.h
+3rdparty/taglib/s3m/s3mfile.cpp
+3rdparty/taglib/s3m/s3mfile.h
+3rdparty/taglib/s3m/s3mproperties.cpp
+3rdparty/taglib/s3m/s3mproperties.h
+3rdparty/taglib/tag.cpp
+3rdparty/taglib/tag.h
+3rdparty/taglib/taglib_config.h.cmake
+3rdparty/taglib/taglib_export.h
+3rdparty/taglib/tagunion.cpp
+3rdparty/taglib/tagunion.h
+3rdparty/taglib/tagutils.cpp
+3rdparty/taglib/tagutils.h
+3rdparty/taglib/toolkit/taglib.h
+3rdparty/taglib/toolkit/tbytevector.cpp
+3rdparty/taglib/toolkit/tbytevector.h
+3rdparty/taglib/toolkit/tbytevectorlist.cpp
+3rdparty/taglib/toolkit/tbytevectorlist.h
+3rdparty/taglib/toolkit/tbytevectorstream.cpp
+3rdparty/taglib/toolkit/tbytevectorstream.h
+3rdparty/taglib/toolkit/tdebug.cpp
+3rdparty/taglib/toolkit/tdebug.h
+3rdparty/taglib/toolkit/tdebuglistener.cpp
+3rdparty/taglib/toolkit/tdebuglistener.h
+3rdparty/taglib/toolkit/tfile.cpp
+3rdparty/taglib/toolkit/tfile.h
+3rdparty/taglib/toolkit/tfilestream.cpp
+3rdparty/taglib/toolkit/tfilestream.h
+3rdparty/taglib/toolkit/tiostream.cpp
+3rdparty/taglib/toolkit/tiostream.h
+3rdparty/taglib/toolkit/tlist.h
+3rdparty/taglib/toolkit/tlist.tcc
+3rdparty/taglib/toolkit/tmap.h
+3rdparty/taglib/toolkit/tmap.tcc
+3rdparty/taglib/toolkit/tpropertymap.cpp
+3rdparty/taglib/toolkit/tpropertymap.h
+3rdparty/taglib/toolkit/trefcounter.cpp
+3rdparty/taglib/toolkit/trefcounter.h
+3rdparty/taglib/toolkit/tstring.cpp
+3rdparty/taglib/toolkit/tstring.h
+3rdparty/taglib/toolkit/tstringlist.cpp
+3rdparty/taglib/toolkit/tstringlist.h
+3rdparty/taglib/toolkit/tutils.h
+3rdparty/taglib/toolkit/tzlib.cpp
+3rdparty/taglib/toolkit/tzlib.h
+3rdparty/taglib/trueaudio/trueaudiofile.cpp
+3rdparty/taglib/trueaudio/trueaudiofile.h
+3rdparty/taglib/trueaudio/trueaudioproperties.cpp
+3rdparty/taglib/trueaudio/trueaudioproperties.h
+3rdparty/taglib/wavpack/wavpackfile.cpp
+3rdparty/taglib/wavpack/wavpackfile.h
+3rdparty/taglib/wavpack/wavpackproperties.cpp
+3rdparty/taglib/wavpack/wavpackproperties.h
+3rdparty/taglib/xm/xmfile.cpp
+3rdparty/taglib/xm/xmfile.h
+3rdparty/taglib/xm/xmproperties.cpp
+3rdparty/taglib/xm/xmproperties.h
+3rdparty/tinysvcmdns/CMakeLists.txt
+3rdparty/tinysvcmdns/LICENSE.txt
+3rdparty/tinysvcmdns/README.markdown
+3rdparty/tinysvcmdns/mdns.c
+3rdparty/tinysvcmdns/mdns.h
+3rdparty/tinysvcmdns/mdnsd.c
+3rdparty/tinysvcmdns/mdnsd.h
+3rdparty/tinysvcmdns/testmdnsd.c
+3rdparty/utf8-cpp/CMakeLists.txt
+3rdparty/utf8-cpp/checked.h
+3rdparty/utf8-cpp/core.h
+CMakeLists.txt
+COPYING
+Changelog
+README-TURKISH.md
+README.md
+Toolchain-mingw32.cmake
+cmake/C++11Compat.cmake
+cmake/Deb.cmake
+cmake/FindFFTW3.cmake
+cmake/Format.cmake
+cmake/OptionalSource.cmake
+cmake/ParseArguments.cmake
+cmake/SpotifyVersion.cmake
+cmake/Summary.cmake
+cmake/Translations.cmake
+cmake/Version.cmake
+cmake_uninstall.cmake.in
+data/Equifax_Secure_Certificate_Authority.pem
+data/blank.ttf
+data/clementine-spotify-public.pem
+data/clementine_remote_qr.png
+data/currenttrack_bar_left.png
+data/currenttrack_bar_mid.png
+data/currenttrack_bar_right.png
+data/currenttrack_pause.png
+data/currenttrack_play.png
+data/data.qrc
+data/globalsearch.css
+data/hypnotoad.gif
+data/icon.png
+data/icon.svg
+data/icon_large.png
+data/icon_large_grey.png
+data/icon_outline.xcf
+data/icons/22x22/application-exit.png
+data/icons/22x22/applications-internet.png
+data/icons/22x22/audio-card.png
+data/icons/22x22/audio-headphones.png
+data/icons/22x22/audio-headset.png
+data/icons/22x22/audio-volume-medium.png
+data/icons/22x22/audio-volume-muted.png
+data/icons/22x22/configure.png
+data/icons/22x22/dialog-ok-apply.png
+data/icons/22x22/dialog-warning.png
+data/icons/22x22/document-new.png
+data/icons/22x22/document-open-folder.png
+data/icons/22x22/document-open-remote.png
+data/icons/22x22/document-open.png
+data/icons/22x22/document-save.png
+data/icons/22x22/download.png
+data/icons/22x22/drive-removable-media-usb-pendrive.png
+data/icons/22x22/edit-clear-list.png
+data/icons/22x22/edit-clear-locationbar-ltr.png
+data/icons/22x22/edit-copy.png
+data/icons/22x22/edit-delete.png
+data/icons/22x22/edit-find.png
+data/icons/22x22/edit-redo.png
+data/icons/22x22/edit-rename.png
+data/icons/22x22/edit-undo.png
+data/icons/22x22/enterprise.png
+data/icons/22x22/folder-new.png
+data/icons/22x22/folder-sound.png
+data/icons/22x22/folder.png
+data/icons/22x22/go-down.png
+data/icons/22x22/go-home.png
+data/icons/22x22/go-jump.png
+data/icons/22x22/go-next.png
+data/icons/22x22/go-previous.png
+data/icons/22x22/go-up.png
+data/icons/22x22/group.png
+data/icons/22x22/help-about.png
+data/icons/22x22/help-hint.png
+data/icons/22x22/hypnotoad.png
+data/icons/22x22/input-keyboard.png
+data/icons/22x22/ipodtouchicon.png
+data/icons/22x22/kittens.png
+data/icons/22x22/link.png
+data/icons/22x22/list-add.png
+data/icons/22x22/list-remove.png
+data/icons/22x22/mail-message.png
+data/icons/22x22/media-eject.png
+data/icons/22x22/media-playback-pause.png
+data/icons/22x22/media-playback-start.png
+data/icons/22x22/media-playback-stop.png
+data/icons/22x22/media-playlist-repeat.png
+data/icons/22x22/media-playlist-shuffle.png
+data/icons/22x22/media-skip-backward.png
+data/icons/22x22/media-skip-forward.png
+data/icons/22x22/multimedia-player-ipod-U2-color.png
+data/icons/22x22/multimedia-player-ipod-U2-monochrome.png
+data/icons/22x22/multimedia-player-ipod-mini-blue.png
+data/icons/22x22/multimedia-player-ipod-mini-gold.png
+data/icons/22x22/multimedia-player-ipod-mini-green.png
+data/icons/22x22/multimedia-player-ipod-mini-pink.png
+data/icons/22x22/multimedia-player-ipod-mini-silver.png
+data/icons/22x22/multimedia-player-ipod-nano-black.png
+data/icons/22x22/multimedia-player-ipod-nano-green.png
+data/icons/22x22/multimedia-player-ipod-nano-white.png
+data/icons/22x22/multimedia-player-ipod-shuffle.png
+data/icons/22x22/multimedia-player-ipod-standard-color.png
+data/icons/22x22/multimedia-player-ipod-standard-monochrome.png
+data/icons/22x22/network-server.png
+data/icons/22x22/phone-google-nexus-one.png
+data/icons/22x22/phone-htc-g1-white.png
+data/icons/22x22/phone-nokia-n900.png
+data/icons/22x22/phone-palm-pre.png
+data/icons/22x22/phone.png
+data/icons/22x22/qtlogo.png
+data/icons/22x22/user-away.png
+data/icons/22x22/view-choose.png
+data/icons/22x22/view-fullscreen.png
+data/icons/22x22/view-media-equalizer.png
+data/icons/22x22/view-media-lyrics.png
+data/icons/22x22/view-media-playlist.png
+data/icons/22x22/view-media-visualization.png
+data/icons/22x22/view-refresh.png
+data/icons/22x22/weather-showers-scattered.png
+data/icons/22x22/x-clementine-album.png
+data/icons/22x22/x-clementine-albums.png
+data/icons/22x22/x-clementine-artist.png
+data/icons/22x22/x-clementine-shuffle.png
+data/icons/22x22/zoom-in.png
+data/icons/32x32/application-exit.png
+data/icons/32x32/applications-internet.png
+data/icons/32x32/audio-volume-medium.png
+data/icons/32x32/audio-volume-muted.png
+data/icons/32x32/configure.png
+data/icons/32x32/document-new.png
+data/icons/32x32/document-open-folder.png
+data/icons/32x32/document-open-remote.png
+data/icons/32x32/document-open.png
+data/icons/32x32/document-save.png
+data/icons/32x32/download.png
+data/icons/32x32/drive-removable-media-usb-pendrive.png
+data/icons/32x32/edit-clear-list.png
+data/icons/32x32/edit-clear-locationbar-ltr.png
+data/icons/32x32/edit-copy.png
+data/icons/32x32/edit-delete.png
+data/icons/32x32/edit-find.png
+data/icons/32x32/edit-redo.png
+data/icons/32x32/edit-rename.png
+data/icons/32x32/edit-undo.png
+data/icons/32x32/enterprise.png
+data/icons/32x32/folder-new.png
+data/icons/32x32/folder-sound.png
+data/icons/32x32/folder.png
+data/icons/32x32/go-down.png
+data/icons/32x32/go-home.png
+data/icons/32x32/go-jump.png
+data/icons/32x32/go-next.png
+data/icons/32x32/go-previous.png
+data/icons/32x32/go-up.png
+data/icons/32x32/group.png
+data/icons/32x32/help-about.png
+data/icons/32x32/help-hint.png
+data/icons/32x32/hypnotoad.png
+data/icons/32x32/input-keyboard.png
+data/icons/32x32/internet-services.png
+data/icons/32x32/ipodtouchicon.png
+data/icons/32x32/kittens.png
+data/icons/32x32/link.png
+data/icons/32x32/list-add.png
+data/icons/32x32/list-remove.png
+data/icons/32x32/mail-message.png
+data/icons/32x32/media-eject.png
+data/icons/32x32/media-playback-pause.png
+data/icons/32x32/media-playback-start.png
+data/icons/32x32/media-playback-stop.png
+data/icons/32x32/media-playlist-repeat.png
+data/icons/32x32/media-playlist-shuffle.png
+data/icons/32x32/media-skip-backward.png
+data/icons/32x32/media-skip-forward.png
+data/icons/32x32/multimedia-player-ipod-U2-color.png
+data/icons/32x32/multimedia-player-ipod-U2-monochrome.png
+data/icons/32x32/multimedia-player-ipod-mini-blue.png
+data/icons/32x32/multimedia-player-ipod-mini-gold.png
+data/icons/32x32/multimedia-player-ipod-mini-green.png
+data/icons/32x32/multimedia-player-ipod-mini-pink.png
+data/icons/32x32/multimedia-player-ipod-mini-silver.png
+data/icons/32x32/multimedia-player-ipod-nano-black.png
+data/icons/32x32/multimedia-player-ipod-nano-green.png
+data/icons/32x32/multimedia-player-ipod-nano-white.png
+data/icons/32x32/multimedia-player-ipod-shuffle.png
+data/icons/32x32/multimedia-player-ipod-standard-color.png
+data/icons/32x32/multimedia-player-ipod-standard-monochrome.png
+data/icons/32x32/network-server.png
+data/icons/32x32/phone-google-nexus-one.png
+data/icons/32x32/phone-htc-g1-white.png
+data/icons/32x32/phone-nokia-n900.png
+data/icons/32x32/phone-palm-pre.png
+data/icons/32x32/phone.png
+data/icons/32x32/qtlogo.png
+data/icons/32x32/search.png
+data/icons/32x32/tools-wizard.png
+data/icons/32x32/view-choose.png
+data/icons/32x32/view-fullscreen.png
+data/icons/32x32/view-media-equalizer.png
+data/icons/32x32/view-media-lyrics.png
+data/icons/32x32/view-media-playlist.png
+data/icons/32x32/view-media-visualization.png
+data/icons/32x32/view-refresh.png
+data/icons/32x32/weather-showers-scattered.png
+data/icons/32x32/wiimotedev.png
+data/icons/32x32/x-clementine-artist.png
+data/icons/32x32/x-clementine-shuffle.png
+data/icons/32x32/zoom-in.png
+data/icons/48x48/application-exit.png
+data/icons/48x48/applications-internet.png
+data/icons/48x48/audio-volume-medium.png
+data/icons/48x48/audio-volume-muted.png
+data/icons/48x48/configure.png
+data/icons/48x48/document-new.png
+data/icons/48x48/document-open-folder.png
+data/icons/48x48/document-open-remote.png
+data/icons/48x48/document-open.png
+data/icons/48x48/document-save.png
+data/icons/48x48/download.png
+data/icons/48x48/drive-removable-media-usb-pendrive.png
+data/icons/48x48/edit-clear-list.png
+data/icons/48x48/edit-clear-locationbar-ltr.png
+data/icons/48x48/edit-copy.png
+data/icons/48x48/edit-delete.png
+data/icons/48x48/edit-find.png
+data/icons/48x48/edit-redo.png
+data/icons/48x48/edit-rename.png
+data/icons/48x48/edit-undo.png
+data/icons/48x48/enterprise.png
+data/icons/48x48/folder-new.png
+data/icons/48x48/folder-sound.png
+data/icons/48x48/folder.png
+data/icons/48x48/go-down.png
+data/icons/48x48/go-home.png
+data/icons/48x48/go-jump.png
+data/icons/48x48/go-next.png
+data/icons/48x48/go-previous.png
+data/icons/48x48/go-up.png
+data/icons/48x48/group.png
+data/icons/48x48/help-about.png
+data/icons/48x48/help-hint.png
+data/icons/48x48/hypnotoad.png
+data/icons/48x48/input-keyboard.png
+data/icons/48x48/ipodtouchicon.png
+data/icons/48x48/kittens.png
+data/icons/48x48/link.png
+data/icons/48x48/list-add.png
+data/icons/48x48/list-remove.png
+data/icons/48x48/mail-message.png
+data/icons/48x48/media-eject.png
+data/icons/48x48/media-optical.png
+data/icons/48x48/media-playback-pause.png
+data/icons/48x48/media-playback-start.png
+data/icons/48x48/media-playback-stop.png
+data/icons/48x48/media-playlist-repeat.png
+data/icons/48x48/media-playlist-shuffle.png
+data/icons/48x48/media-skip-backward.png
+data/icons/48x48/media-skip-forward.png
+data/icons/48x48/multimedia-player-ipod-U2-color.png
+data/icons/48x48/multimedia-player-ipod-U2-monochrome.png
+data/icons/48x48/multimedia-player-ipod-mini-blue.png
+data/icons/48x48/multimedia-player-ipod-mini-gold.png
+data/icons/48x48/multimedia-player-ipod-mini-green.png
+data/icons/48x48/multimedia-player-ipod-mini-pink.png
+data/icons/48x48/multimedia-player-ipod-mini-silver.png
+data/icons/48x48/multimedia-player-ipod-nano-black.png
+data/icons/48x48/multimedia-player-ipod-nano-green.png
+data/icons/48x48/multimedia-player-ipod-nano-white.png
+data/icons/48x48/multimedia-player-ipod-shuffle.png
+data/icons/48x48/multimedia-player-ipod-standard-color.png
+data/icons/48x48/multimedia-player-ipod-standard-monochrome.png
+data/icons/48x48/network-server.png
+data/icons/48x48/phone-google-nexus-one.png
+data/icons/48x48/phone-htc-g1-white.png
+data/icons/48x48/phone-nokia-n900.png
+data/icons/48x48/phone-palm-pre.png
+data/icons/48x48/phone.png
+data/icons/48x48/qtlogo.png
+data/icons/48x48/view-choose.png
+data/icons/48x48/view-fullscreen.png
+data/icons/48x48/view-media-equalizer.png
+data/icons/48x48/view-media-lyrics.png
+data/icons/48x48/view-media-playlist.png
+data/icons/48x48/view-media-visualization.png
+data/icons/48x48/view-refresh.png
+data/icons/48x48/weather-showers-scattered.png
+data/icons/48x48/x-clementine-artist.png
+data/icons/48x48/x-clementine-shuffle.png
+data/icons/48x48/zoom-in.png
+data/icons/svg/ipodtouchicon.svg
+data/icons/svg/media-playlist-repeat.svg
+data/icons/svg/media-playlist-shuffle.svg
+data/icons/svg/multimedia-player-ipod-nano-green.svg
+data/icons/svg/multimedia-player-ipod-nano-pink.svg
+data/icons/svg/spotify.svg
+data/last.fm/as.png
+data/last.fm/as_disabled.png
+data/last.fm/as_light.png
+data/last.fm/icon_radio.png
+data/last.fm/icon_tag.png
+data/last.fm/icon_user.png
+data/last.fm/lastfm.png
+data/last.fm/love.png
+data/last.fm/loved_radio.png
+data/last.fm/user_purple.png
+data/logo.png
+data/logo.xcf
+data/lumberjacksong.txt
+data/lyrics/ultimate_providers.xml
+data/mainwindow.css
+data/nocover.png
+data/nomusic.png
+data/now_playing_tooltip.txt
+data/nyancat.png
+data/oauthsuccess.html
+data/osd_background.png
+data/osd_shadow_corner.png
+data/osd_shadow_edge.png
+data/playstore/af_generic_rgb_wo_45.png
+data/playstore/ar_generic_rgb_wo_45.png
+data/playstore/be_generic_rgb_wo_45.png
+data/playstore/bg_generic_rgb_wo_45.png
+data/playstore/ca_generic_rgb_wo_45.png
+data/playstore/cs_generic_rgb_wo_45.png
+data/playstore/da_generic_rgb_wo_45.png
+data/playstore/de_generic_rgb_wo_45.png
+data/playstore/el_generic_rgb_wo_45.png
+data/playstore/en_generic_rgb_wo_45.png
+data/playstore/es_generic_rgb_wo_45.png
+data/playstore/et_generic_rgb_wo_45.png
+data/playstore/fa_generic_rgb_wo_45.png
+data/playstore/fi_generic_rgb_wo_45.png
+data/playstore/fr_generic_rgb_wo_45.png
+data/playstore/hr_generic_rgb_wo_45.png
+data/playstore/hu_generic_rgb_wo_45.png
+data/playstore/it_generic_rgb_wo_45.png
+data/playstore/ja_generic_rgb_wo_45.png
+data/playstore/ko_generic_rgb_wo_45.png
+data/playstore/lt_generic_rgb_wo_45.png
+data/playstore/lv_generic_rgb_wo_45.png
+data/playstore/ms_generic_rgb_wo_45.png
+data/playstore/nl_generic_rgb_wo_45.png
+data/playstore/pl_generic_rgb_wo_45.png
+data/playstore/ro_generic_rgb_wo_45.png
+data/playstore/ru_generic_rgb_wo_45.png
+data/playstore/sk_generic_rgb_wo_45.png
+data/playstore/sl_generic_rgb_wo_45.png
+data/playstore/sr_generic_rgb_wo_45.png
+data/playstore/sv_generic_rgb_wo_45.png
+data/playstore/tr_generic_rgb_wo_45.png
+data/playstore/uk_generic_rgb_wo_45.png
+data/playstore/vi_generic_rgb_wo_45.png
+data/providers/22x22/amazon.png
+data/providers/22x22/amazonclouddrive.png
+data/providers/22x22/aol.png
+data/providers/22x22/bbc.png
+data/providers/22x22/box.png
+data/providers/22x22/cdbaby.png
+data/providers/22x22/digitallyimported.png
+data/providers/22x22/dropbox.png
+data/providers/22x22/googledrive.png
+data/providers/22x22/intergalacticfm.png
+data/providers/22x22/itunes.png
+data/providers/22x22/jamendo.png
+data/providers/22x22/jazzradio.png
+data/providers/22x22/lastfm.png
+data/providers/22x22/magnatune.png
+data/providers/22x22/mog.png
+data/providers/22x22/mtvmusic.png
+data/providers/22x22/musicbrainz.png
+data/providers/22x22/mygpo.png
+data/providers/22x22/myspace.png
+data/providers/22x22/podcast.png
+data/providers/22x22/radiotunes.png
+data/providers/22x22/rockradio.png
+data/providers/22x22/seafile.png
+data/providers/22x22/skydrive.png
+data/providers/22x22/somafm.png
+data/providers/22x22/songkick.png
+data/providers/22x22/soundcloud.png
+data/providers/22x22/spotify.png
+data/providers/22x22/subsonic.png
+data/providers/22x22/vk.png
+data/providers/22x22/wikipedia.png
+data/providers/32x32/amazon.png
+data/providers/32x32/amazonclouddrive.png
+data/providers/32x32/aol.png
+data/providers/32x32/bbc.png
+data/providers/32x32/box.png
+data/providers/32x32/cdbaby.png
+data/providers/32x32/digitallyimported.png
+data/providers/32x32/dropbox.png
+data/providers/32x32/googledrive.png
+data/providers/32x32/intergalacticfm.png
+data/providers/32x32/itunes.png
+data/providers/32x32/jamendo.png
+data/providers/32x32/jazzradio.png
+data/providers/32x32/lastfm.png
+data/providers/32x32/magnatune.png
+data/providers/32x32/mog.png
+data/providers/32x32/mtvmusic.png
+data/providers/32x32/musicbrainz.png
+data/providers/32x32/mygpo.png
+data/providers/32x32/myspace.png
+data/providers/32x32/podcast.png
+data/providers/32x32/radiotunes.png
+data/providers/32x32/rockradio.png
+data/providers/32x32/seafile.png
+data/providers/32x32/skydrive.png
+data/providers/32x32/somafm.png
+data/providers/32x32/songkick.png
+data/providers/32x32/soundcloud.png
+data/providers/32x32/spotify.png
+data/providers/32x32/subsonic.png
+data/providers/32x32/vk.png
+data/providers/32x32/wikipedia.png
+data/providers/48x48/amazon.png
+data/providers/48x48/amazonclouddrive.png
+data/providers/48x48/aol.png
+data/providers/48x48/bbc.png
+data/providers/48x48/box.png
+data/providers/48x48/cdbaby.png
+data/providers/48x48/digitallyimported.png
+data/providers/48x48/dropbox.png
+data/providers/48x48/googledrive.png
+data/providers/48x48/intergalacticfm.png
+data/providers/48x48/itunes.png
+data/providers/48x48/jamendo.png
+data/providers/48x48/jazzradio.png
+data/providers/48x48/lastfm.png
+data/providers/48x48/magnatune.png
+data/providers/48x48/mog.png
+data/providers/48x48/mtvmusic.png
+data/providers/48x48/musicbrainz.png
+data/providers/48x48/mygpo.png
+data/providers/48x48/myspace.png
+data/providers/48x48/podcast.png
+data/providers/48x48/radiotunes.png
+data/providers/48x48/rockradio.png
+data/providers/48x48/seafile.png
+data/providers/48x48/skydrive.png
+data/providers/48x48/somafm.png
+data/providers/48x48/songkick.png
+data/providers/48x48/soundcloud.png
+data/providers/48x48/spotify.png
+data/providers/48x48/subsonic.png
+data/providers/48x48/vk.png
+data/providers/48x48/wikipedia.png
+data/rainbowdash.png
+data/sample.mood
+data/schema/device-schema.sql
+data/schema/jamendo.sql
+data/schema/schema-1.sql
+data/schema/schema-10.sql
+data/schema/schema-11.sql
+data/schema/schema-12.sql
+data/schema/schema-13.sql
+data/schema/schema-14.sql
+data/schema/schema-15.sql
+data/schema/schema-16.sql
+data/schema/schema-17.sql
+data/schema/schema-18.sql
+data/schema/schema-19.sql
+data/schema/schema-2.sql
+data/schema/schema-20.sql
+data/schema/schema-21.sql
+data/schema/schema-22.sql
+data/schema/schema-23.sql
+data/schema/schema-24.sql
+data/schema/schema-25.sql
+data/schema/schema-26.sql
+data/schema/schema-27.sql
+data/schema/schema-28.sql
+data/schema/schema-29.sql
+data/schema/schema-3.sql
+data/schema/schema-30.sql
+data/schema/schema-31.sql
+data/schema/schema-32.sql
+data/schema/schema-33.sql
+data/schema/schema-34.sql
+data/schema/schema-35.sql
+data/schema/schema-36.sql
+data/schema/schema-37.sql
+data/schema/schema-38.sql
+data/schema/schema-39.sql
+data/schema/schema-4.sql
+data/schema/schema-40.sql
+data/schema/schema-41.sql
+data/schema/schema-42.sql
+data/schema/schema-43.sql
+data/schema/schema-44.sql
+data/schema/schema-45.sql
+data/schema/schema-46.sql
+data/schema/schema-47.sql
+data/schema/schema-48.sql
+data/schema/schema-49.sql
+data/schema/schema-5.sql
+data/schema/schema-50.sql
+data/schema/schema-51.sql
+data/schema/schema-6.sql
+data/schema/schema-7.sql
+data/schema/schema-8.sql
+data/schema/schema-9.sql
+data/schema/schema.sql
+data/sidebar_background.png
+data/smartplaylistsearchterm.css
+data/songinfo.css
+data/soundcloud-ca.pem
+data/spinner.gif
+data/spotify-attribution.png
+data/star-off.png
+data/star-on.png
+data/tiny-pause.png
+data/tiny-start.png
+data/volumeslider-gradient.png
+data/volumeslider-handle.png
+data/volumeslider-handle_glow.png
+debian/CMakeLists.txt
+debian/changelog.in
+debian/clementine.gconf-defaults
+debian/compat
+debian/control
+debian/copyright
+debian/rules.in
+dist/CMakeLists.txt
+dist/DS_Store.in
+dist/Info.plist.in
+dist/cacert.pem
+dist/clementine-feed.protocol
+dist/clementine-itms.protocol
+dist/clementine-itpc.protocol
+dist/clementine-zune.protocol
+dist/clementine.appdata.xml
+dist/clementine.desktop
+dist/clementine.icns
+dist/clementine.spec.in
+dist/clementine_128.png
+dist/clementine_16.png
+dist/clementine_32.png
+dist/clementine_64.png
+dist/codesign.py
+dist/copyright.py
+dist/cpplint.py
+dist/cpplint.py.README
+dist/cpplint.sh
+dist/create-dmg.sh
+dist/dmg_background.png
+dist/dmg_background.xcf
+dist/format.py
+dist/icons/ubuntu-mono-dark/clementine-panel-grey.png
+dist/icons/ubuntu-mono-dark/clementine-panel.png
+dist/icons/ubuntu-mono-light/clementine-panel-grey.png
+dist/icons/ubuntu-mono-light/clementine-panel.png
+dist/macdeploy.py
+dist/maketarball.sh.in
+dist/qt.conf
+dist/sparkle_pub.pem
+dist/translations/cloudbuild-pull.yaml
+dist/translations/cloudbuild-push.yaml
+dist/translations/id_rsa.enc
+dist/translations/id_rsa.pub
+dist/translations/known_hosts
+dist/translations/transifex/Dockerfile
+dist/update_desktop_languages.py
+dist/uploadtoppa.sh
+dist/versionnumbers.py
+dist/windows/Capabilities.nsh
+dist/windows/FileAssociation.nsh
+dist/windows/clementine.ico
+dist/windows/clementine.nsi.in
+dist/windows/nsisplugins/KillProc.dll
+dist/windows/nsisplugins/ShellExecAsUser.dll
+dist/windows/nsisplugins/nsisos.dll
+dist/windows/windres.rc.in
+ext/clementine-spotifyblob/CMakeLists.txt
+ext/clementine-spotifyblob/main.cpp
+ext/clementine-spotifyblob/mediapipeline.cpp
+ext/clementine-spotifyblob/mediapipeline.h
+ext/clementine-spotifyblob/spotify_utilities.cpp
+ext/clementine-spotifyblob/spotify_utilities.h
+ext/clementine-spotifyblob/spotify_utilities.mm
+ext/clementine-spotifyblob/spotifyclient.cpp
+ext/clementine-spotifyblob/spotifyclient.h
+ext/clementine-spotifyblob/spotifykey.h
+ext/clementine-tagreader/CMakeLists.txt
+ext/clementine-tagreader/data/Equifax_Secure_Certificate_Authority.pem
+ext/clementine-tagreader/data/data.qrc
+ext/clementine-tagreader/data/godaddy-root.pem
+ext/clementine-tagreader/main.cpp
+ext/clementine-tagreader/tagreaderworker.cpp
+ext/clementine-tagreader/tagreaderworker.h
+ext/libclementine-common/CMakeLists.txt
+ext/libclementine-common/core/arraysize.h
+ext/libclementine-common/core/closure.cpp
+ext/libclementine-common/core/closure.h
+ext/libclementine-common/core/concurrentrun.h
+ext/libclementine-common/core/latch.cpp
+ext/libclementine-common/core/latch.h
+ext/libclementine-common/core/lazy.h
+ext/libclementine-common/core/logging.cpp
+ext/libclementine-common/core/logging.h
+ext/libclementine-common/core/messagehandler.cpp
+ext/libclementine-common/core/messagehandler.h
+ext/libclementine-common/core/messagereply.cpp
+ext/libclementine-common/core/messagereply.h
+ext/libclementine-common/core/override.h
+ext/libclementine-common/core/scoped_nsautorelease_pool.h
+ext/libclementine-common/core/scoped_nsautorelease_pool.mm
+ext/libclementine-common/core/waitforsignal.cpp
+ext/libclementine-common/core/waitforsignal.h
+ext/libclementine-common/core/workerpool.cpp
+ext/libclementine-common/core/workerpool.h
+ext/libclementine-remote/CMakeLists.txt
+ext/libclementine-remote/remotecontrolmessages.proto
+ext/libclementine-spotifyblob/CMakeLists.txt
+ext/libclementine-spotifyblob/blobversion.h.in
+ext/libclementine-spotifyblob/spotifymessages.proto
+ext/libclementine-tagreader/CMakeLists.txt
+ext/libclementine-tagreader/cloudstream.cpp
+ext/libclementine-tagreader/cloudstream.h
+ext/libclementine-tagreader/fmpsparser.cpp
+ext/libclementine-tagreader/fmpsparser.h
+ext/libclementine-tagreader/gmereader.cpp
+ext/libclementine-tagreader/gmereader.h
+ext/libclementine-tagreader/tagreader.cpp
+ext/libclementine-tagreader/tagreader.h
+ext/libclementine-tagreader/tagreadermessages.proto
+gst/moodbar/CMakeLists.txt
+gst/moodbar/gstfastspectrum.cpp
+gst/moodbar/gstfastspectrum.h
+gst/moodbar/plugin.cpp
+gst/moodbar/plugin.h
+snap/snapcraft.yaml
+src/CMakeLists.txt
+src/analyzers/analyzer.cpp
+src/analyzers/analyzerbase.cpp
+src/analyzers/analyzerbase.h
+src/analyzers/analyzercontainer.cpp
+src/analyzers/analyzercontainer.h
+src/analyzers/baranalyzer.cpp
+src/analyzers/baranalyzer.h
+src/analyzers/blockanalyzer.cpp
+src/analyzers/blockanalyzer.h
+src/analyzers/boomanalyzer.cpp
+src/analyzers/boomanalyzer.h
+src/analyzers/fht.cpp
+src/analyzers/fht.h
+src/analyzers/glanalyzer.cpp
+src/analyzers/glanalyzer.h
+src/analyzers/glanalyzer2.cpp
+src/analyzers/glanalyzer2.h
+src/analyzers/glanalyzer3.cpp
+src/analyzers/glanalyzer3.h
+src/analyzers/rainbowanalyzer.cpp
+src/analyzers/rainbowanalyzer.h
+src/analyzers/sonogram.cpp
+src/analyzers/sonogram.h
+src/analyzers/turbine.cpp
+src/analyzers/turbine.h
+src/config.h.in
+src/core/appearance.cpp
+src/core/appearance.h
+src/core/application.cpp
+src/core/application.h
+src/core/backgroundstreams.cpp
+src/core/backgroundstreams.h
+src/core/cachedlist.h
+src/core/commandlineoptions.cpp
+src/core/commandlineoptions.h
+src/core/crashreporting.cpp
+src/core/crashreporting.h
+src/core/database.cpp
+src/core/database.h
+src/core/deletefiles.cpp
+src/core/deletefiles.h
+src/core/filesystemmusicstorage.cpp
+src/core/filesystemmusicstorage.h
+src/core/filesystemwatcherinterface.cpp
+src/core/filesystemwatcherinterface.h
+src/core/globalshortcutbackend.cpp
+src/core/globalshortcutbackend.h
+src/core/globalshortcuts.cpp
+src/core/globalshortcuts.h
+src/core/gnomeglobalshortcutbackend.cpp
+src/core/gnomeglobalshortcutbackend.h
+src/core/kglobalaccelglobalshortcutbackend.cpp
+src/core/kglobalaccelglobalshortcutbackend.h
+src/core/mac_delegate.h
+src/core/mac_startup.h
+src/core/mac_startup.mm
+src/core/mac_utilities.h
+src/core/macfslistener.h
+src/core/macfslistener.mm
+src/core/macglobalshortcutbackend.h
+src/core/macglobalshortcutbackend.mm
+src/core/mergedproxymodel.cpp
+src/core/mergedproxymodel.h
+src/core/metatypes.cpp
+src/core/metatypes.h
+src/core/mimedata.h
+src/core/mpris.cpp
+src/core/mpris.h
+src/core/mpris2.cpp
+src/core/mpris2.h
+src/core/mpris_common.h
+src/core/multisortfilterproxy.cpp
+src/core/multisortfilterproxy.h
+src/core/musicstorage.cpp
+src/core/musicstorage.h
+src/core/network.cpp
+src/core/network.h
+src/core/networkproxyfactory.cpp
+src/core/networkproxyfactory.h
+src/core/organise.cpp
+src/core/organise.h
+src/core/organiseformat.cpp
+src/core/organiseformat.h
+src/core/player.cpp
+src/core/player.h
+src/core/potranslator.h
+src/core/qtfslistener.cpp
+src/core/qtfslistener.h
+src/core/qxtglobalshortcutbackend.cpp
+src/core/qxtglobalshortcutbackend.h
+src/core/scoped_cftyperef.h
+src/core/scoped_nsobject.h
+src/core/scopedgobject.h
+src/core/scopedtransaction.cpp
+src/core/scopedtransaction.h
+src/core/settingsprovider.cpp
+src/core/settingsprovider.h
+src/core/signalchecker.cpp
+src/core/signalchecker.h
+src/core/simpletreeitem.h
+src/core/simpletreemodel.h
+src/core/song.cpp
+src/core/song.h
+src/core/songloader.cpp
+src/core/songloader.h
+src/core/stylesheetloader.cpp
+src/core/stylesheetloader.h
+src/core/tagreaderclient.cpp
+src/core/tagreaderclient.h
+src/core/taskmanager.cpp
+src/core/taskmanager.h
+src/core/thread.cpp
+src/core/thread.h
+src/core/timeconstants.h
+src/core/ubuntuunityhack.cpp
+src/core/ubuntuunityhack.h
+src/core/urlhandler.cpp
+src/core/urlhandler.h
+src/core/utilities.cpp
+src/core/utilities.h
+src/covers/albumcoverexporter.cpp
+src/covers/albumcoverexporter.h
+src/covers/albumcoverfetcher.cpp
+src/covers/albumcoverfetcher.h
+src/covers/albumcoverfetchersearch.cpp
+src/covers/albumcoverfetchersearch.h
+src/covers/albumcoverloader.cpp
+src/covers/albumcoverloader.h
+src/covers/albumcoverloaderoptions.cpp
+src/covers/albumcoverloaderoptions.h
+src/covers/coverexportrunnable.cpp
+src/covers/coverexportrunnable.h
+src/covers/coverprovider.cpp
+src/covers/coverprovider.h
+src/covers/coverproviders.cpp
+src/covers/coverproviders.h
+src/covers/coversearchstatistics.cpp
+src/covers/coversearchstatistics.h
+src/covers/coversearchstatisticsdialog.cpp
+src/covers/coversearchstatisticsdialog.h
+src/covers/coversearchstatisticsdialog.ui
+src/covers/currentartloader.cpp
+src/covers/currentartloader.h
+src/covers/discogscoverprovider.cpp
+src/covers/discogscoverprovider.h
+src/covers/kittenloader.cpp
+src/covers/kittenloader.h
+src/covers/lastfmcoverprovider.cpp
+src/covers/lastfmcoverprovider.h
+src/covers/musicbrainzcoverprovider.cpp
+src/covers/musicbrainzcoverprovider.h
+src/dbus/metatypes.h
+src/dbus/org.freedesktop.Avahi.EntryGroup.xml
+src/dbus/org.freedesktop.Avahi.Server.xml
+src/dbus/org.freedesktop.DBus.ObjectManager.xml
+src/dbus/org.freedesktop.Notifications.xml
+src/dbus/org.freedesktop.UDisks.Device.xml
+src/dbus/org.freedesktop.UDisks.xml
+src/dbus/org.freedesktop.UDisks2.Block.xml
+src/dbus/org.freedesktop.UDisks2.Drive.xml
+src/dbus/org.freedesktop.UDisks2.Filesystem.xml
+src/dbus/org.freedesktop.UDisks2.Job.xml
+src/dbus/org.gnome.SettingsDaemon.MediaKeys.xml
+src/dbus/org.kde.KGlobalAccel.xml
+src/dbus/org.kde.kglobalaccel.Component.xml
+src/dbus/org.mpris.MediaPlayer2.Player.xml
+src/dbus/org.mpris.MediaPlayer2.Playlists.xml
+src/dbus/org.mpris.MediaPlayer2.TrackList.xml
+src/dbus/org.mpris.MediaPlayer2.xml
+src/dbus/org.wiimotedev.deviceEvents.xml
+src/devices/cddadevice.cpp
+src/devices/cddadevice.h
+src/devices/cddalister.cpp
+src/devices/cddalister.h
+src/devices/cddasongloader.cpp
+src/devices/cddasongloader.h
+src/devices/connecteddevice.cpp
+src/devices/connecteddevice.h
+src/devices/devicedatabasebackend.cpp
+src/devices/devicedatabasebackend.h
+src/devices/deviceinfo.cpp
+src/devices/deviceinfo.h
+src/devices/devicekitlister.cpp
+src/devices/devicekitlister.h
+src/devices/devicelister.cpp
+src/devices/devicelister.h
+src/devices/devicemanager.cpp
+src/devices/devicemanager.h
+src/devices/deviceproperties.cpp
+src/devices/deviceproperties.h
+src/devices/deviceproperties.ui
+src/devices/devicestatefiltermodel.cpp
+src/devices/devicestatefiltermodel.h
+src/devices/deviceview.cpp
+src/devices/deviceview.h
+src/devices/deviceviewcontainer.cpp
+src/devices/deviceviewcontainer.h
+src/devices/deviceviewcontainer.ui
+src/devices/filesystemdevice.cpp
+src/devices/filesystemdevice.h
+src/devices/giolister.cpp
+src/devices/giolister.h
+src/devices/gpoddevice.cpp
+src/devices/gpoddevice.h
+src/devices/gpodloader.cpp
+src/devices/gpodloader.h
+src/devices/macdevicelister.h
+src/devices/macdevicelister.mm
+src/devices/mtpconnection.cpp
+src/devices/mtpconnection.h
+src/devices/mtpdevice.cpp
+src/devices/mtpdevice.h
+src/devices/mtploader.cpp
+src/devices/mtploader.h
+src/devices/udisks2lister.cpp
+src/devices/udisks2lister.h
+src/engines/alsadevicefinder.cpp
+src/engines/alsadevicefinder.h
+src/engines/bufferconsumer.h
+src/engines/devicefinder.cpp
+src/engines/devicefinder.h
+src/engines/directsounddevicefinder.cpp
+src/engines/directsounddevicefinder.h
+src/engines/engine_fwd.h
+src/engines/enginebase.cpp
+src/engines/enginebase.h
+src/engines/gstelementdeleter.cpp
+src/engines/gstelementdeleter.h
+src/engines/gstengine.cpp
+src/engines/gstengine.h
+src/engines/gstenginepipeline.cpp
+src/engines/gstenginepipeline.h
+src/engines/osxdevicefinder.cpp
+src/engines/osxdevicefinder.h
+src/engines/playbackrequest.h
+src/engines/pulsedevicefinder.cpp
+src/engines/pulsedevicefinder.h
+src/globalsearch/digitallyimportedsearchprovider.cpp
+src/globalsearch/digitallyimportedsearchprovider.h
+src/globalsearch/globalsearch.cpp
+src/globalsearch/globalsearch.h
+src/globalsearch/globalsearchitemdelegate.cpp
+src/globalsearch/globalsearchitemdelegate.h
+src/globalsearch/globalsearchmodel.cpp
+src/globalsearch/globalsearchmodel.h
+src/globalsearch/globalsearchsettingspage.cpp
+src/globalsearch/globalsearchsettingspage.h
+src/globalsearch/globalsearchsettingspage.ui
+src/globalsearch/globalsearchsortmodel.cpp
+src/globalsearch/globalsearchsortmodel.h
+src/globalsearch/globalsearchview.cpp
+src/globalsearch/globalsearchview.h
+src/globalsearch/globalsearchview.ui
+src/globalsearch/icecastsearchprovider.cpp
+src/globalsearch/icecastsearchprovider.h
+src/globalsearch/intergalacticfmsearchprovider.cpp
+src/globalsearch/intergalacticfmsearchprovider.h
+src/globalsearch/librarysearchprovider.cpp
+src/globalsearch/librarysearchprovider.h
+src/globalsearch/savedradiosearchprovider.cpp
+src/globalsearch/savedradiosearchprovider.h
+src/globalsearch/searchprovider.cpp
+src/globalsearch/searchprovider.h
+src/globalsearch/searchproviderstatuswidget.cpp
+src/globalsearch/searchproviderstatuswidget.h
+src/globalsearch/searchproviderstatuswidget.ui
+src/globalsearch/simplesearchprovider.cpp
+src/globalsearch/simplesearchprovider.h
+src/globalsearch/somafmsearchprovider.cpp
+src/globalsearch/somafmsearchprovider.h
+src/globalsearch/spotifysearchprovider.cpp
+src/globalsearch/spotifysearchprovider.h
+src/globalsearch/suggestionwidget.cpp
+src/globalsearch/suggestionwidget.h
+src/globalsearch/suggestionwidget.ui
+src/globalsearch/urlsearchprovider.cpp
+src/globalsearch/urlsearchprovider.h
+src/internet/box/boxservice.cpp
+src/internet/box/boxservice.h
+src/internet/box/boxsettingspage.cpp
+src/internet/box/boxsettingspage.h
+src/internet/box/boxsettingspage.ui
+src/internet/box/boxurlhandler.cpp
+src/internet/box/boxurlhandler.h
+src/internet/core/cloudfilesearchprovider.cpp
+src/internet/core/cloudfilesearchprovider.h
+src/internet/core/cloudfileservice.cpp
+src/internet/core/cloudfileservice.h
+src/internet/core/geolocator.cpp
+src/internet/core/geolocator.h
+src/internet/core/internetmimedata.h
+src/internet/core/internetmodel.cpp
+src/internet/core/internetmodel.h
+src/internet/core/internetplaylistitem.cpp
+src/internet/core/internetplaylistitem.h
+src/internet/core/internetservice.cpp
+src/internet/core/internetservice.h
+src/internet/core/internetshowsettingspage.cpp
+src/internet/core/internetshowsettingspage.h
+src/internet/core/internetshowsettingspage.ui
+src/internet/core/internetsongmimedata.h
+src/internet/core/internetview.cpp
+src/internet/core/internetview.h
+src/internet/core/internetviewcontainer.cpp
+src/internet/core/internetviewcontainer.h
+src/internet/core/internetviewcontainer.ui
+src/internet/core/localredirectserver.cpp
+src/internet/core/localredirectserver.h
+src/internet/core/oauthenticator.cpp
+src/internet/core/oauthenticator.h
+src/internet/core/scrobbler.h
+src/internet/core/searchboxwidget.cpp
+src/internet/core/searchboxwidget.h
+src/internet/core/searchboxwidget.ui
+src/internet/digitally/digitallyimportedclient.cpp
+src/internet/digitally/digitallyimportedclient.h
+src/internet/digitally/digitallyimportedservicebase.cpp
+src/internet/digitally/digitallyimportedservicebase.h
+src/internet/digitally/digitallyimportedsettingspage.cpp
+src/internet/digitally/digitallyimportedsettingspage.h
+src/internet/digitally/digitallyimportedsettingspage.ui
+src/internet/digitally/digitallyimportedurlhandler.cpp
+src/internet/digitally/digitallyimportedurlhandler.h
+src/internet/dropbox/dropboxservice.cpp
+src/internet/dropbox/dropboxservice.h
+src/internet/dropbox/dropboxsettingspage.cpp
+src/internet/dropbox/dropboxsettingspage.h
+src/internet/dropbox/dropboxsettingspage.ui
+src/internet/dropbox/dropboxurlhandler.cpp
+src/internet/dropbox/dropboxurlhandler.h
+src/internet/googledrive/googledriveclient.cpp
+src/internet/googledrive/googledriveclient.h
+src/internet/googledrive/googledriveservice.cpp
+src/internet/googledrive/googledriveservice.h
+src/internet/googledrive/googledrivesettingspage.cpp
+src/internet/googledrive/googledrivesettingspage.h
+src/internet/googledrive/googledrivesettingspage.ui
+src/internet/googledrive/googledriveurlhandler.cpp
+src/internet/googledrive/googledriveurlhandler.h
+src/internet/icecast/icecastbackend.cpp
+src/internet/icecast/icecastbackend.h
+src/internet/icecast/icecastfilterwidget.cpp
+src/internet/icecast/icecastfilterwidget.h
+src/internet/icecast/icecastfilterwidget.ui
+src/internet/icecast/icecastitem.h
+src/internet/icecast/icecastmodel.cpp
+src/internet/icecast/icecastmodel.h
+src/internet/icecast/icecastservice.cpp
+src/internet/icecast/icecastservice.h
+src/internet/intergalacticfm/intergalacticfmservice.cpp
+src/internet/intergalacticfm/intergalacticfmservice.h
+src/internet/intergalacticfm/intergalacticfmurlhandler.cpp
+src/internet/intergalacticfm/intergalacticfmurlhandler.h
+src/internet/internetradio/savedradio.cpp
+src/internet/internetradio/savedradio.h
+src/internet/jamendo/jamendodynamicplaylist.cpp
+src/internet/jamendo/jamendodynamicplaylist.h
+src/internet/jamendo/jamendoplaylistitem.cpp
+src/internet/jamendo/jamendoplaylistitem.h
+src/internet/jamendo/jamendoservice.cpp
+src/internet/jamendo/jamendoservice.h
+src/internet/lastfm/fixlastfm.cpp
+src/internet/lastfm/fixlastfm.h
+src/internet/lastfm/lastfmcompat.cpp
+src/internet/lastfm/lastfmcompat.h
+src/internet/lastfm/lastfmservice.cpp
+src/internet/lastfm/lastfmservice.h
+src/internet/lastfm/lastfmsettingspage.cpp
+src/internet/lastfm/lastfmsettingspage.h
+src/internet/lastfm/lastfmsettingspage.ui
+src/internet/lastfm/lastfmurlhandler.h
+src/internet/magnatune/magnatunedownloaddialog.cpp
+src/internet/magnatune/magnatunedownloaddialog.h
+src/internet/magnatune/magnatunedownloaddialog.ui
+src/internet/magnatune/magnatuneplaylistitem.cpp
+src/internet/magnatune/magnatuneplaylistitem.h
+src/internet/magnatune/magnatuneservice.cpp
+src/internet/magnatune/magnatuneservice.h
+src/internet/magnatune/magnatunesettingspage.cpp
+src/internet/magnatune/magnatunesettingspage.h
+src/internet/magnatune/magnatunesettingspage.ui
+src/internet/magnatune/magnatuneurlhandler.cpp
+src/internet/magnatune/magnatuneurlhandler.h
+src/internet/podcasts/addpodcastbyurl.cpp
+src/internet/podcasts/addpodcastbyurl.h
+src/internet/podcasts/addpodcastbyurl.ui
+src/internet/podcasts/addpodcastdialog.cpp
+src/internet/podcasts/addpodcastdialog.h
+src/internet/podcasts/addpodcastdialog.ui
+src/internet/podcasts/addpodcastpage.cpp
+src/internet/podcasts/addpodcastpage.h
+src/internet/podcasts/episodeinfowidget.cpp
+src/internet/podcasts/episodeinfowidget.h
+src/internet/podcasts/episodeinfowidget.ui
+src/internet/podcasts/fixedopmlpage.cpp
+src/internet/podcasts/fixedopmlpage.h
+src/internet/podcasts/gpoddersearchpage.cpp
+src/internet/podcasts/gpoddersearchpage.h
+src/internet/podcasts/gpoddersearchpage.ui
+src/internet/podcasts/gpoddersync.cpp
+src/internet/podcasts/gpoddersync.h
+src/internet/podcasts/gpoddertoptagsmodel.cpp
+src/internet/podcasts/gpoddertoptagsmodel.h
+src/internet/podcasts/gpoddertoptagspage.cpp
+src/internet/podcasts/gpoddertoptagspage.h
+src/internet/podcasts/itunessearchpage.cpp
+src/internet/podcasts/itunessearchpage.h
+src/internet/podcasts/itunessearchpage.ui
+src/internet/podcasts/opmlcontainer.h
+src/internet/podcasts/podcast.cpp
+src/internet/podcasts/podcast.h
+src/internet/podcasts/podcastbackend.cpp
+src/internet/podcasts/podcastbackend.h
+src/internet/podcasts/podcastdeleter.cpp
+src/internet/podcasts/podcastdeleter.h
+src/internet/podcasts/podcastdiscoverymodel.cpp
+src/internet/podcasts/podcastdiscoverymodel.h
+src/internet/podcasts/podcastdownloader.cpp
+src/internet/podcasts/podcastdownloader.h
+src/internet/podcasts/podcastepisode.cpp
+src/internet/podcasts/podcastepisode.h
+src/internet/podcasts/podcastinfodialog.cpp
+src/internet/podcasts/podcastinfodialog.h
+src/internet/podcasts/podcastinfodialog.ui
+src/internet/podcasts/podcastinfowidget.cpp
+src/internet/podcasts/podcastinfowidget.h
+src/internet/podcasts/podcastinfowidget.ui
+src/internet/podcasts/podcastparser.cpp
+src/internet/podcasts/podcastparser.h
+src/internet/podcasts/podcastservice.cpp
+src/internet/podcasts/podcastservice.h
+src/internet/podcasts/podcastservicemodel.cpp
+src/internet/podcasts/podcastservicemodel.h
+src/internet/podcasts/podcastsettingspage.cpp
+src/internet/podcasts/podcastsettingspage.h
+src/internet/podcasts/podcastsettingspage.ui
+src/internet/podcasts/podcastupdater.cpp
+src/internet/podcasts/podcastupdater.h
+src/internet/podcasts/podcasturlloader.cpp
+src/internet/podcasts/podcasturlloader.h
+src/internet/seafile/seafileservice.cpp
+src/internet/seafile/seafileservice.h
+src/internet/seafile/seafilesettingspage.cpp
+src/internet/seafile/seafilesettingspage.h
+src/internet/seafile/seafilesettingspage.ui
+src/internet/seafile/seafiletree.cpp
+src/internet/seafile/seafiletree.h
+src/internet/seafile/seafileurlhandler.cpp
+src/internet/seafile/seafileurlhandler.h
+src/internet/skydrive/skydriveservice.cpp
+src/internet/skydrive/skydriveservice.h
+src/internet/skydrive/skydrivesettingspage.cpp
+src/internet/skydrive/skydrivesettingspage.h
+src/internet/skydrive/skydrivesettingspage.ui
+src/internet/skydrive/skydriveurlhandler.cpp
+src/internet/skydrive/skydriveurlhandler.h
+src/internet/somafm/somafmservice.cpp
+src/internet/somafm/somafmservice.h
+src/internet/somafm/somafmurlhandler.cpp
+src/internet/somafm/somafmurlhandler.h
+src/internet/spotify/spotifyblobdownloader.cpp
+src/internet/spotify/spotifyblobdownloader.h
+src/internet/spotify/spotifyserver.cpp
+src/internet/spotify/spotifyserver.h
+src/internet/spotify/spotifyservice.cpp
+src/internet/spotify/spotifyservice.h
+src/internet/spotify/spotifysettingspage.cpp
+src/internet/spotify/spotifysettingspage.h
+src/internet/spotify/spotifysettingspage.ui
+src/internet/subsonic/subsonicdynamicplaylist.cpp
+src/internet/subsonic/subsonicdynamicplaylist.h
+src/internet/subsonic/subsonicservice.cpp
+src/internet/subsonic/subsonicservice.h
+src/internet/subsonic/subsonicsettingspage.cpp
+src/internet/subsonic/subsonicsettingspage.h
+src/internet/subsonic/subsonicsettingspage.ui
+src/internet/subsonic/subsonicurlhandler.cpp
+src/internet/subsonic/subsonicurlhandler.h
+src/library/directory.h
+src/library/groupbydialog.cpp
+src/library/groupbydialog.h
+src/library/groupbydialog.ui
+src/library/library.cpp
+src/library/library.h
+src/library/librarybackend.cpp
+src/library/librarybackend.h
+src/library/librarydirectorymodel.cpp
+src/library/librarydirectorymodel.h
+src/library/libraryfilterwidget.cpp
+src/library/libraryfilterwidget.h
+src/library/libraryfilterwidget.ui
+src/library/libraryitem.h
+src/library/librarymodel.cpp
+src/library/librarymodel.h
+src/library/libraryplaylistitem.cpp
+src/library/libraryplaylistitem.h
+src/library/libraryquery.cpp
+src/library/libraryquery.h
+src/library/librarysettingspage.cpp
+src/library/librarysettingspage.h
+src/library/librarysettingspage.ui
+src/library/libraryview.cpp
+src/library/libraryview.h
+src/library/libraryviewcontainer.cpp
+src/library/libraryviewcontainer.h
+src/library/libraryviewcontainer.ui
+src/library/librarywatcher.cpp
+src/library/librarywatcher.h
+src/library/savedgroupingmanager.cpp
+src/library/savedgroupingmanager.h
+src/library/savedgroupingmanager.ui
+src/library/sqlrow.cpp
+src/library/sqlrow.h
+src/mac/SBSystemPreferences.h
+src/main.cpp
+src/moodbar/moodbarbuilder.cpp
+src/moodbar/moodbarbuilder.h
+src/moodbar/moodbarcontroller.cpp
+src/moodbar/moodbarcontroller.h
+src/moodbar/moodbaritemdelegate.cpp
+src/moodbar/moodbaritemdelegate.h
+src/moodbar/moodbarloader.cpp
+src/moodbar/moodbarloader.h
+src/moodbar/moodbarpipeline.cpp
+src/moodbar/moodbarpipeline.h
+src/moodbar/moodbarproxystyle.cpp
+src/moodbar/moodbarproxystyle.h
+src/moodbar/moodbarrenderer.cpp
+src/moodbar/moodbarrenderer.h
+src/musicbrainz/acoustidclient.cpp
+src/musicbrainz/acoustidclient.h
+src/musicbrainz/chromaprinter.cpp
+src/musicbrainz/chromaprinter.h
+src/musicbrainz/musicbrainzclient.cpp
+src/musicbrainz/musicbrainzclient.h
+src/musicbrainz/tagfetcher.cpp
+src/musicbrainz/tagfetcher.h
+src/networkremote/avahi.cpp
+src/networkremote/avahi.h
+src/networkremote/bonjour.h
+src/networkremote/bonjour.mm
+src/networkremote/incomingdataparser.cpp
+src/networkremote/incomingdataparser.h
+src/networkremote/networkremote.cpp
+src/networkremote/networkremote.h
+src/networkremote/networkremotehelper.cpp
+src/networkremote/networkremotehelper.h
+src/networkremote/outgoingdatacreator.cpp
+src/networkremote/outgoingdatacreator.h
+src/networkremote/remoteclient.cpp
+src/networkremote/remoteclient.h
+src/networkremote/songsender.cpp
+src/networkremote/songsender.h
+src/networkremote/tinysvcmdns.cpp
+src/networkremote/tinysvcmdns.h
+src/networkremote/zeroconf.cpp
+src/networkremote/zeroconf.h
+src/playlist/dynamicplaylistcontrols.cpp
+src/playlist/dynamicplaylistcontrols.h
+src/playlist/dynamicplaylistcontrols.ui
+src/playlist/playlist.cpp
+src/playlist/playlist.h
+src/playlist/playlistbackend.cpp
+src/playlist/playlistbackend.h
+src/playlist/playlistcontainer.cpp
+src/playlist/playlistcontainer.h
+src/playlist/playlistcontainer.ui
+src/playlist/playlistdelegates.cpp
+src/playlist/playlistdelegates.h
+src/playlist/playlistfilter.cpp
+src/playlist/playlistfilter.h
+src/playlist/playlistfilterparser.cpp
+src/playlist/playlistfilterparser.h
+src/playlist/playlistheader.cpp
+src/playlist/playlistheader.h
+src/playlist/playlistitem.cpp
+src/playlist/playlistitem.h
+src/playlist/playlistitemmimedata.h
+src/playlist/playlistlistcontainer.cpp
+src/playlist/playlistlistcontainer.h
+src/playlist/playlistlistcontainer.ui
+src/playlist/playlistlistmodel.cpp
+src/playlist/playlistlistmodel.h
+src/playlist/playlistlistview.cpp
+src/playlist/playlistlistview.h
+src/playlist/playlistmanager.cpp
+src/playlist/playlistmanager.h
+src/playlist/playlistsaveoptionsdialog.cpp
+src/playlist/playlistsaveoptionsdialog.h
+src/playlist/playlistsaveoptionsdialog.ui
+src/playlist/playlistsequence.cpp
+src/playlist/playlistsequence.h
+src/playlist/playlistsequence.ui
+src/playlist/playlisttabbar.cpp
+src/playlist/playlisttabbar.h
+src/playlist/playlistundocommands.cpp
+src/playlist/playlistundocommands.h
+src/playlist/playlistview.cpp
+src/playlist/playlistview.h
+src/playlist/queue.cpp
+src/playlist/queue.h
+src/playlist/queuemanager.cpp
+src/playlist/queuemanager.h
+src/playlist/queuemanager.ui
+src/playlist/songloaderinserter.cpp
+src/playlist/songloaderinserter.h
+src/playlist/songmimedata.h
+src/playlist/songplaylistitem.cpp
+src/playlist/songplaylistitem.h
+src/playlistparsers/asxiniparser.cpp
+src/playlistparsers/asxiniparser.h
+src/playlistparsers/asxparser.cpp
+src/playlistparsers/asxparser.h
+src/playlistparsers/cueparser.cpp
+src/playlistparsers/cueparser.h
+src/playlistparsers/m3uparser.cpp
+src/playlistparsers/m3uparser.h
+src/playlistparsers/parserbase.cpp
+src/playlistparsers/parserbase.h
+src/playlistparsers/playlistparser.cpp
+src/playlistparsers/playlistparser.h
+src/playlistparsers/plsparser.cpp
+src/playlistparsers/plsparser.h
+src/playlistparsers/wplparser.cpp
+src/playlistparsers/wplparser.h
+src/playlistparsers/xmlparser.cpp
+src/playlistparsers/xmlparser.h
+src/playlistparsers/xspfparser.cpp
+src/playlistparsers/xspfparser.h
+src/ripper/ripcddialog.cpp
+src/ripper/ripcddialog.h
+src/ripper/ripcddialog.ui
+src/ripper/ripper.cpp
+src/ripper/ripper.h
+src/smartplaylists/generator.cpp
+src/smartplaylists/generator.h
+src/smartplaylists/generator_fwd.h
+src/smartplaylists/generatorinserter.cpp
+src/smartplaylists/generatorinserter.h
+src/smartplaylists/generatormimedata.h
+src/smartplaylists/querygenerator.cpp
+src/smartplaylists/querygenerator.h
+src/smartplaylists/querysearchpage.ui
+src/smartplaylists/querysortpage.ui
+src/smartplaylists/querywizardplugin.cpp
+src/smartplaylists/querywizardplugin.h
+src/smartplaylists/search.cpp
+src/smartplaylists/search.h
+src/smartplaylists/searchpreview.cpp
+src/smartplaylists/searchpreview.h
+src/smartplaylists/searchpreview.ui
+src/smartplaylists/searchterm.cpp
+src/smartplaylists/searchterm.h
+src/smartplaylists/searchtermwidget.cpp
+src/smartplaylists/searchtermwidget.h
+src/smartplaylists/searchtermwidget.ui
+src/smartplaylists/wizard.cpp
+src/smartplaylists/wizard.h
+src/smartplaylists/wizardfinishpage.ui
+src/smartplaylists/wizardplugin.cpp
+src/smartplaylists/wizardplugin.h
+src/songinfo/artistbiography.cpp
+src/songinfo/artistbiography.h
+src/songinfo/artistinfoview.cpp
+src/songinfo/artistinfoview.h
+src/songinfo/collapsibleinfoheader.cpp
+src/songinfo/collapsibleinfoheader.h
+src/songinfo/collapsibleinfopane.cpp
+src/songinfo/collapsibleinfopane.h
+src/songinfo/lastfmtrackinfoprovider.cpp
+src/songinfo/lastfmtrackinfoprovider.h
+src/songinfo/songinfobase.cpp
+src/songinfo/songinfobase.h
+src/songinfo/songinfofetcher.cpp
+src/songinfo/songinfofetcher.h
+src/songinfo/songinfoprovider.cpp
+src/songinfo/songinfoprovider.h
+src/songinfo/songinfosettingspage.cpp
+src/songinfo/songinfosettingspage.h
+src/songinfo/songinfosettingspage.ui
+src/songinfo/songinfotextview.cpp
+src/songinfo/songinfotextview.h
+src/songinfo/songinfoview.cpp
+src/songinfo/songinfoview.h
+src/songinfo/songkickconcerts.cpp
+src/songinfo/songkickconcerts.h
+src/songinfo/songkickconcertwidget.cpp
+src/songinfo/songkickconcertwidget.h
+src/songinfo/songkickconcertwidget.ui
+src/songinfo/songplaystats.cpp
+src/songinfo/songplaystats.h
+src/songinfo/spotifyimages.cpp
+src/songinfo/spotifyimages.h
+src/songinfo/streamdiscoverer.cpp
+src/songinfo/streamdiscoverer.h
+src/songinfo/taglyricsinfoprovider.cpp
+src/songinfo/taglyricsinfoprovider.h
+src/songinfo/tagwidget.cpp
+src/songinfo/tagwidget.h
+src/songinfo/ultimatelyricslyric.cpp
+src/songinfo/ultimatelyricslyric.h
+src/songinfo/ultimatelyricsprovider.cpp
+src/songinfo/ultimatelyricsprovider.h
+src/songinfo/ultimatelyricsreader.cpp
+src/songinfo/ultimatelyricsreader.h
+src/transcoder/transcodedialog.cpp
+src/transcoder/transcodedialog.h
+src/transcoder/transcodedialog.ui
+src/transcoder/transcodelogdialog.ui
+src/transcoder/transcoder.cpp
+src/transcoder/transcoder.h
+src/transcoder/transcoderoptionsaac.cpp
+src/transcoder/transcoderoptionsaac.h
+src/transcoder/transcoderoptionsaac.ui
+src/transcoder/transcoderoptionsdialog.cpp
+src/transcoder/transcoderoptionsdialog.h
+src/transcoder/transcoderoptionsdialog.ui
+src/transcoder/transcoderoptionsflac.cpp
+src/transcoder/transcoderoptionsflac.h
+src/transcoder/transcoderoptionsflac.ui
+src/transcoder/transcoderoptionsinterface.h
+src/transcoder/transcoderoptionsmp3.cpp
+src/transcoder/transcoderoptionsmp3.h
+src/transcoder/transcoderoptionsmp3.ui
+src/transcoder/transcoderoptionsopus.cpp
+src/transcoder/transcoderoptionsopus.h
+src/transcoder/transcoderoptionsopus.ui
+src/transcoder/transcoderoptionsspeex.cpp
+src/transcoder/transcoderoptionsspeex.h
+src/transcoder/transcoderoptionsspeex.ui
+src/transcoder/transcoderoptionsvorbis.cpp
+src/transcoder/transcoderoptionsvorbis.h
+src/transcoder/transcoderoptionsvorbis.ui
+src/transcoder/transcoderoptionswma.cpp
+src/transcoder/transcoderoptionswma.h
+src/transcoder/transcoderoptionswma.ui
+src/transcoder/transcodersettingspage.cpp
+src/transcoder/transcodersettingspage.h
+src/transcoder/transcodersettingspage.ui
+src/translations/af.po
+src/translations/ar.po
+src/translations/be.po
+src/translations/bg.po
+src/translations/bn.po
+src/translations/br.po
+src/translations/bs.po
+src/translations/ca.po
+src/translations/cs.po
+src/translations/cy.po
+src/translations/da.po
+src/translations/de.po
+src/translations/el.po
+src/translations/en.po
+src/translations/en_CA.po
+src/translations/en_GB.po
+src/translations/eo.po
+src/translations/es.po
+src/translations/et.po
+src/translations/eu.po
+src/translations/fa.po
+src/translations/fi.po
+src/translations/fr.po
+src/translations/ga.po
+src/translations/gl.po
+src/translations/he.po
+src/translations/he_IL.po
+src/translations/header
+src/translations/hi.po
+src/translations/hr.po
+src/translations/hu.po
+src/translations/hy.po
+src/translations/ia.po
+src/translations/id.po
+src/translations/is.po
+src/translations/it.po
+src/translations/ja.po
+src/translations/ka.po
+src/translations/kk.po
+src/translations/ko.po
+src/translations/lt.po
+src/translations/lv.po
+src/translations/mk_MK.po
+src/translations/mr.po
+src/translations/ms.po
+src/translations/my.po
+src/translations/nb.po
+src/translations/nl.po
+src/translations/oc.po
+src/translations/pa.po
+src/translations/pl.po
+src/translations/pt.po
+src/translations/pt_BR.po
+src/translations/ro.po
+src/translations/ru.po
+src/translations/si_LK.po
+src/translations/sk.po
+src/translations/sl.po
+src/translations/sr.po
+src/translations/sr@latin.po
+src/translations/sv.po
+src/translations/te.po
+src/translations/tr.po
+src/translations/tr_TR.po
+src/translations/uk.po
+src/translations/uz.po
+src/translations/vi.po
+src/translations/zh_CN.po
+src/translations/zh_TW.po
+src/ui/about.cpp
+src/ui/about.h
+src/ui/about.ui
+src/ui/addstreamdialog.cpp
+src/ui/addstreamdialog.h
+src/ui/addstreamdialog.ui
+src/ui/albumcoverchoicecontroller.cpp
+src/ui/albumcoverchoicecontroller.h
+src/ui/albumcoverexport.cpp
+src/ui/albumcoverexport.h
+src/ui/albumcoverexport.ui
+src/ui/albumcovermanager.cpp
+src/ui/albumcovermanager.h
+src/ui/albumcovermanager.ui
+src/ui/albumcovermanagerlist.cpp
+src/ui/albumcovermanagerlist.h
+src/ui/albumcoversearcher.cpp
+src/ui/albumcoversearcher.h
+src/ui/albumcoversearcher.ui
+src/ui/appearancesettingspage.cpp
+src/ui/appearancesettingspage.h
+src/ui/appearancesettingspage.ui
+src/ui/backgroundstreamssettingspage.cpp
+src/ui/backgroundstreamssettingspage.h
+src/ui/backgroundstreamssettingspage.ui
+src/ui/behavioursettingspage.cpp
+src/ui/behavioursettingspage.h
+src/ui/behavioursettingspage.ui
+src/ui/console.cpp
+src/ui/console.h
+src/ui/console.ui
+src/ui/coverfromurldialog.cpp
+src/ui/coverfromurldialog.h
+src/ui/coverfromurldialog.ui
+src/ui/dbusscreensaver.cpp
+src/ui/dbusscreensaver.h
+src/ui/edittagdialog.cpp
+src/ui/edittagdialog.h
+src/ui/edittagdialog.ui
+src/ui/equalizer.cpp
+src/ui/equalizer.h
+src/ui/equalizer.ui
+src/ui/flowlayout.cpp
+src/ui/flowlayout.h
+src/ui/globalshortcutgrabber.cpp
+src/ui/globalshortcutgrabber.h
+src/ui/globalshortcutgrabber.mm
+src/ui/globalshortcutgrabber.ui
+src/ui/globalshortcutssettingspage.cpp
+src/ui/globalshortcutssettingspage.h
+src/ui/globalshortcutssettingspage.ui
+src/ui/iconloader.cpp
+src/ui/iconloader.h
+src/ui/macscreensaver.cpp
+src/ui/macscreensaver.h
+src/ui/macsystemtrayicon.h
+src/ui/macsystemtrayicon.mm
+src/ui/mainwindow.cpp
+src/ui/mainwindow.h
+src/ui/mainwindow.ui
+src/ui/networkproxysettingspage.cpp
+src/ui/networkproxysettingspage.h
+src/ui/networkproxysettingspage.ui
+src/ui/networkremotesettingspage.cpp
+src/ui/networkremotesettingspage.h
+src/ui/networkremotesettingspage.ui
+src/ui/notificationssettingspage.cpp
+src/ui/notificationssettingspage.h
+src/ui/notificationssettingspage.ui
+src/ui/organisedialog.cpp
+src/ui/organisedialog.h
+src/ui/organisedialog.ui
+src/ui/organiseerrordialog.cpp
+src/ui/organiseerrordialog.h
+src/ui/organiseerrordialog.ui
+src/ui/playbacksettingspage.cpp
+src/ui/playbacksettingspage.h
+src/ui/playbacksettingspage.ui
+src/ui/qt_blurimage.h
+src/ui/qtsystemtrayicon.cpp
+src/ui/qtsystemtrayicon.h
+src/ui/screensaver.cpp
+src/ui/screensaver.h
+src/ui/settingsdialog.cpp
+src/ui/settingsdialog.h
+src/ui/settingsdialog.ui
+src/ui/settingspage.cpp
+src/ui/settingspage.h
+src/ui/standarditemiconloader.cpp
+src/ui/standarditemiconloader.h
+src/ui/streamdetailsdialog.cpp
+src/ui/streamdetailsdialog.h
+src/ui/streamdetailsdialog.ui
+src/ui/systemtrayicon.cpp
+src/ui/systemtrayicon.h
+src/ui/trackselectiondialog.cpp
+src/ui/trackselectiondialog.h
+src/ui/trackselectiondialog.ui
+src/ui/windows7thumbbar.cpp
+src/ui/windows7thumbbar.h
+src/ui/windowsscreensaver.cpp
+src/ui/windowsscreensaver.h
+src/version.h.in
+src/visualisations/projectmpresetmodel.cpp
+src/visualisations/projectmpresetmodel.h
+src/visualisations/projectmvisualisation.cpp
+src/visualisations/projectmvisualisation.h
+src/visualisations/visualisationcontainer.cpp
+src/visualisations/visualisationcontainer.h
+src/visualisations/visualisationoverlay.cpp
+src/visualisations/visualisationoverlay.h
+src/visualisations/visualisationoverlay.ui
+src/visualisations/visualisationselector.cpp
+src/visualisations/visualisationselector.h
+src/visualisations/visualisationselector.ui
+src/widgets/autoexpandingtreeview.cpp
+src/widgets/autoexpandingtreeview.h
+src/widgets/busyindicator.cpp
+src/widgets/busyindicator.h
+src/widgets/clickablelabel.cpp
+src/widgets/clickablelabel.h
+src/widgets/didyoumean.cpp
+src/widgets/didyoumean.h
+src/widgets/elidedlabel.cpp
+src/widgets/elidedlabel.h
+src/widgets/equalizerslider.cpp
+src/widgets/equalizerslider.h
+src/widgets/equalizerslider.ui
+src/widgets/errordialog.cpp
+src/widgets/errordialog.h
+src/widgets/errordialog.ui
+src/widgets/fancytabwidget.cpp
+src/widgets/fancytabwidget.h
+src/widgets/favoritewidget.cpp
+src/widgets/favoritewidget.h
+src/widgets/fileview.cpp
+src/widgets/fileview.h
+src/widgets/fileview.ui
+src/widgets/fileviewlist.cpp
+src/widgets/fileviewlist.h
+src/widgets/forcescrollperpixel.cpp
+src/widgets/forcescrollperpixel.h
+src/widgets/freespacebar.cpp
+src/widgets/freespacebar.h
+src/widgets/fullscreenhypnotoad.cpp
+src/widgets/fullscreenhypnotoad.h
+src/widgets/groupediconview.cpp
+src/widgets/groupediconview.h
+src/widgets/lineedit.cpp
+src/widgets/lineedit.h
+src/widgets/linetextedit.cpp
+src/widgets/linetextedit.h
+src/widgets/loginstatewidget.cpp
+src/widgets/loginstatewidget.h
+src/widgets/loginstatewidget.ui
+src/widgets/multiloadingindicator.cpp
+src/widgets/multiloadingindicator.h
+src/widgets/nowplayingwidget.cpp
+src/widgets/nowplayingwidget.h
+src/widgets/osd.cpp
+src/widgets/osd.h
+src/widgets/osd_mac.mm
+src/widgets/osd_win.cpp
+src/widgets/osd_x11.cpp
+src/widgets/osdpretty.cpp
+src/widgets/osdpretty.h
+src/widgets/osdpretty.ui
+src/widgets/prettyimage.cpp
+src/widgets/prettyimage.h
+src/widgets/prettyimageview.cpp
+src/widgets/prettyimageview.h
+src/widgets/progressitemdelegate.cpp
+src/widgets/progressitemdelegate.h
+src/widgets/ratingwidget.cpp
+src/widgets/ratingwidget.h
+src/widgets/renametablineedit.cpp
+src/widgets/renametablineedit.h
+src/widgets/sliderwidget.cpp
+src/widgets/sliderwidget.h
+src/widgets/stickyslider.cpp
+src/widgets/stickyslider.h
+src/widgets/stretchheaderview.cpp
+src/widgets/stretchheaderview.h
+src/widgets/stylehelper.cpp
+src/widgets/stylehelper.h
+src/widgets/trackslider.cpp
+src/widgets/trackslider.h
+src/widgets/trackslider.ui
+src/widgets/tracksliderpopup.cpp
+src/widgets/tracksliderpopup.h
+src/widgets/tracksliderslider.cpp
+src/widgets/tracksliderslider.h
+src/widgets/widgetfadehelper.cpp
+src/widgets/widgetfadehelper.h
+src/wiimotedev/consts.h
+src/wiimotedev/shortcuts.cpp
+src/wiimotedev/shortcuts.h
+src/wiimotedev/wiimotesettingspage.cpp
+src/wiimotedev/wiimotesettingspage.h
+src/wiimotedev/wiimotesettingspage.ui
+src/wiimotedev/wiimoteshortcutgrabber.cpp
+src/wiimotedev/wiimoteshortcutgrabber.h
+src/wiimotedev/wiimoteshortcutgrabber.ui
+tests/CMakeLists.txt
+tests/albumcoverfetcher_test.cpp
+tests/albumcovermanager_test.cpp
+tests/asxiniparser_test.cpp
+tests/asxparser_test.cpp
+tests/closure_test.cpp
+tests/concurrentrun_test.cpp
+tests/cueparser_test.cpp
+tests/data/beep.flac
+tests/data/beep.m4a
+tests/data/beep.mp3
+tests/data/beep.ogg
+tests/data/beep.spx
+tests/data/beep.wav
+tests/data/beep.wma
+tests/data/brokensong.cue
+tests/data/discid_2cd.xml
+tests/data/fmpsplaycount.mp3
+tests/data/fmpsplaycountboth.mp3
+tests/data/fmpsplaycountuser.mp3
+tests/data/fmpspopmrating.mp3
+tests/data/fmpsrating.mp3
+tests/data/fmpsratingboth.mp3
+tests/data/fmpsratinguser.mp3
+tests/data/fullmetadata.cue
+tests/data/manyfiles.cue
+tests/data/manyfilesbroken.cue
+tests/data/onesong.cue
+tests/data/pls_one.pls
+tests/data/pls_somafm.pls
+tests/data/popmrating.mp3
+tests/data/recording.xml
+tests/data/recording_with_multiple_releases.xml
+tests/data/secretagent.asx
+tests/data/secretagent.pls
+tests/data/test.asx
+tests/data/test.asxini
+tests/data/test.m3u
+tests/data/test.xspf
+tests/data/testdata.qrc
+tests/data/twosongs.cue
+tests/data/withdatafiles.cue
+tests/database_test.cpp
+tests/fileformats_test.cpp
+tests/fmpsparser_test.cpp
+tests/librarybackend_test.cpp
+tests/librarymodel_test.cpp
+tests/logging_env.h
+tests/m3uparser_test.cpp
+tests/main.cpp
+tests/mergedproxymodel_test.cpp
+tests/metatypes_env.h
+tests/mock_backgroundthread.h
+tests/mock_engine.h
+tests/mock_librarybackend.h
+tests/mock_networkaccessmanager.cpp
+tests/mock_networkaccessmanager.h
+tests/mock_player.h
+tests/mock_playlistitem.cpp
+tests/mock_playlistitem.h
+tests/mock_playlistmanager.h
+tests/mock_settingsprovider.h
+tests/mock_sqldriver.h
+tests/mpris1_test.cpp
+tests/musicbrainzclient_test.cpp
+tests/organisedialog_test.cpp
+tests/organiseformat_test.cpp
+tests/playlist_test.cpp
+tests/plsparser_test.cpp
+tests/resources_env.h
+tests/scopedtransaction_test.cpp
+tests/song_test.cpp
+tests/songloader_test.cpp
+tests/songplaylistitem_test.cpp
+tests/sqlite_test.cpp
+tests/test_utils.cpp
+tests/test_utils.h
+tests/testobjectdecorators.cpp
+tests/testobjectdecorators.h
+tests/translations_test.cpp
+tests/utilities_test.cpp
+tests/xspfparser_test.cpp
+tests/zeroconf_test.cpp
